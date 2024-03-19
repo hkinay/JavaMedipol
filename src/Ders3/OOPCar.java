@@ -16,6 +16,10 @@ public abstract class OOPCar{
         this.speed = speed;
     }
 
+    public OOPCar(){
+
+    }
+
     public void move(){
         System.out.println("Araba hareket eder");
     }
