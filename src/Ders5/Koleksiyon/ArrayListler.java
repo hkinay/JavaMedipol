@@ -2,7 +2,7 @@ package Ders5.Koleksiyon;
 
 import java.util.ArrayList;
 
-public class Collections {
+public class ArrayListler {
     public static void main(String[] args) {
         ArrayList<String> arabalar = new ArrayList<>();
 

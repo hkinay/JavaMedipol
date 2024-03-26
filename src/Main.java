@@ -1,21 +1,44 @@
-import Ders1.Driver;
 import Ders3.Audi;
 import Ders3.Audition;
-import Ders3.Fonksiyonlar;
 import Ders3.OOPCar;
-import Ders5.DI.SmsProvider;
-import Ders5.DI.SmsService;
-import Ders5.DI.TurkcellSmsProvider;
-import Ders5.DI.VodafoneSMSProvider;
+import Ders6.Linkedlistler;
 
-import java.util.Scanner;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        //Dependency Injection
+
+        //LinkedList Örnekleri
+
+        Linkedlistler kitap1 = new Linkedlistler("Ahmet","Kaplan",2.3,1999);
+        Linkedlistler kitap2 = new Linkedlistler("Yaşar","Kemal",5,2000);
+        LinkedList<Linkedlistler> kitaplar = new LinkedList<>();
+
+        kitaplar.add(kitap1);
+        kitaplar.add(kitap2);
+
+       for(Linkedlistler a : kitaplar){
+           System.out.println(a.ad+" " + a.soyad+ " " + a.version+ " " + a.yil);
+       }
+
+       kitaplar.push(kitap1);
+
+
+
+
+
+
+
+
+
+
+
+
+       /* //Dependency Injection
         Scanner al = new Scanner(System.in);
         System.out.println("Mesajınız : ");
         String mesaj = al.nextLine();
@@ -29,7 +52,7 @@ public class Main {
         SmsProvider vodafone = new VodafoneSMSProvider();
         SmsService smsService2 = new SmsService(vodafone);
         smsService2.smsGonder(mesaj);
-
+*/
 
 
 
