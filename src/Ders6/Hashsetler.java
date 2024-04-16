@@ -9,8 +9,10 @@ import java.util.TreeSet;
 public class Hashsetler {
 
     public static void main(String[] args) {
-        HashSet<String> hashSet = new HashSet<>();
 
+
+
+        HashSet<String> hashSet = new HashSet<>();
 
         hashSet.add("Ahmet");
        hashSet.add("Mehmet");
@@ -79,5 +81,15 @@ public class Hashsetler {
 
 
 
+
+
+    }
+    public static int mystery(String str){
+        if (str.length() == 1) return 0;
+        else {
+            if(str.substring(0,1).equals("y")) return 1+
+                    mystery(str.substring(1));
+            else return mystery(str.substring(1));
+            }
     }
 }
