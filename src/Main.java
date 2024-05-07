@@ -2,6 +2,9 @@ import Ders3.Audi;
 import Ders3.Audition;
 import Ders3.OOPCar;
 import Ders6.Linkedlistler;
+import Ders9.GenericClass;
+import Ders9.GenericsJava;
+import Ders9.SiralamaAlgoritmalari;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -26,6 +29,7 @@ public class Main {
        }
 
        kitaplar.push(kitap1);
+
 
 
 
