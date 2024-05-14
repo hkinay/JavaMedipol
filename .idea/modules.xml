@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaMedipol.iml" filepath="$PROJECT_DIR$/JavaMedipol.iml" />
+      <module fileurl="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/jTDS SQL Server and Sybase/jTDS SQL Server and Sybase.iml" filepath="$APPLICATION_CONFIG_DIR$/jdbc-drivers/jTDS SQL Server and Sybase/jTDS SQL Server and Sybase.iml" />
+      <module fileurl="file://$USER_HOME$/OneDrive/Desktop/sqljdbc_12.6.1.0_enu/sqljdbc_12.6.1.0_enu.iml" filepath="$USER_HOME$/OneDrive/Desktop/sqljdbc_12.6.1.0_enu/sqljdbc_12.6.1.0_enu.iml" />
     </modules>
   </component>
 </project>
