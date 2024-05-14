@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="0abd511f-c57b-4c08-9549-fd4d01de75dd" name="VTYS Mapping">
+      <data-sources db="4f080576-162a-480a-ad6f-f68247bac4d5" />
+      <scope>
+        <node kind="database" qname="VTYS" />
+      </scope>
+    </mapping>
+  </component>
+</project>
