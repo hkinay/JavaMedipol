@@ -2,7 +2,7 @@ package Ders3;
 
 public class Audi extends OOPCar{
 
-private String renk;
+private String dosemerenk;
 private String lastik;
 
     public String getLastik() {
@@ -13,12 +13,16 @@ private String lastik;
         this.lastik = lastik;
     }
 
-    public Audi(String platenumber, int xlocation, int ylocation, int speed, String renka) {
-        super(platenumber, xlocation, ylocation, speed);
-        this.renk = renka;
+    public Audi(String platenumber, int xlocation, int ylocation, int speed, String colour, String renka) {
+        super(platenumber, xlocation, ylocation, speed,colour);
+        this.dosemerenk = renka;
 
 
     }
+
+    public Audi(){}
+
+
 
     @Override
     public void move() {
@@ -42,7 +46,7 @@ private String lastik;
 
     public void bilgiGoster(){
 
-        System.out.println(platenumber+" " + xlocation+ " " + ylocation + " " + speed + " " + renk);
+        System.out.println(platenumber+" " + xlocation+ " " + ylocation + " " + speed + " " + dosemerenk + " " + colour);
     }
 
 }

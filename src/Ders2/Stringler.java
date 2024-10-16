@@ -11,9 +11,11 @@ public class Stringler {
         String isim = "Ahmet";
         String name = new String("Ahm et ");
 
-        isim.length(); // uzunluk verir
+        String isim2 = new String ("Ahmet");
 
-        System.out.printf("istenilen karakteri almak için charAt %s%n", isim.charAt(3));
+     isim.length(); // uzunluk verir
+
+        System.out.printf("istenilen karakteri almak için charAt %s%n", uni.charAt(8));
 
         if (isim == name) System.out.println("eşittir");
         else{
@@ -35,7 +37,9 @@ public class Stringler {
         int sayi = Integer.parseInt(cevir); // stringi integere çevirdim
 
         String yenicevir = Integer.toString(sayi); // integeri stringe çevirdim
-        String yeniicevir = String.valueOf(sayi);
+        String yeniicevir = String.valueOf(sayi); // stringe çevirir
+
+
 
         StringBuilder stringBuilder = new StringBuilder("StringBuilder Kullanıyorum");
 

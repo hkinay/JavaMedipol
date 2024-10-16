@@ -1,6 +1,4 @@
-import Ders3.Audi;
-import Ders3.Audition;
-import Ders3.OOPCar;
+import Ders3.*;
 import Ders6.Linkedlistler;
 import Ders9.GenericClass;
 import Ders9.GenericsJava;
@@ -15,7 +13,18 @@ public class Main {
     public static void main(String[] args) {
 
 
-        //LinkedList Örnekleri
+        Fonksiyonlar fr = new Fonksiyonlar();
+        fr.getYas();
+        fr.setYas(16);
+
+        String r= fr.bilgileriGoster("Ahmet");
+        fr.nesneli();
+
+
+        Fonksiyonlar.nesnesiz();
+        System.out.println(r);
+
+      /*  //LinkedList Örnekleri
 
         Linkedlistler kitap1 = new Linkedlistler("Ahmet","Kaplan",2.3,1999);
         Linkedlistler kitap2 = new Linkedlistler("Yaşar","Kemal",5,2000);
@@ -29,7 +38,7 @@ public class Main {
        }
 
        kitaplar.push(kitap1);
-
+*/
 
 
 
@@ -67,16 +76,16 @@ public class Main {
 
 
 
-        /*Fonksiyonlar.nesnesiz();
+
         Fonksiyonlar fonksiyonlar = new Fonksiyonlar();
         fonksiyonlar.nesneli();
 
-        String a= fonksiyonlar.getOzelnesne(); //Fonksiyonlar sınıfından gelecek
+      /*  String a= fonksiyonlar.getOzelnesne(); //Fonksiyonlar sınıfından gelecek
         fonksiyonlar.setOzelnesne("Yeni nesne");
         String b = fonksiyonlar.getOzelnesne();
 
         System.out.println("Eski nesne " + a);
-        System.out.println("Yeni nesne " + b);
+        System.out.println("Yeni nesne " + b);*/
 
         int k = Fonksiyonlar.topla(3,6);
 
@@ -84,23 +93,35 @@ public class Main {
         Fonksiyonlar.min(4,9);
 
         int faktor = Fonksiyonlar.faktoriyel(6);
-        System.out.println(faktor);*/
+        System.out.println(faktor);
+
+
+
+
 
         System.out.println("--------------Inheritance Örneği---------------");
 
-        Audi audi = new Audi("34E59",10,20,255,"Lacivert");
-
-        audi.bilgiGoster();
-        audi.move();
-
-        System.out.println("--------------Polymorphism Örneği---------------");
-        OOPCar oopCar = new Audi("4343",45,46,454,"Siyah");
-
-        oopCar.move();
-        Audition audition = new Audition("4343",45,46,454,"Siyah");
-        audition.bilgiGoster();
+       Audi audi1 = new Audi("er3",34,23,100,"siyah","deri");
+       Audi audi2 = new Audi();
+       audi2.platenumber="434d";
 
 
+        audi1.accelerate(10);
+        audi1.accelerate(10,4);
+
+
+
+        audi1.bilgiGoster();
+
+
+        Renault reno1 = new Renault();
+
+        reno1.colour = "Siyah";
+        int b = reno1.accelerate(50);
+       reno1.yil = "1988";
+
+        System.out.println(reno1.colour);
+        System.out.println(b);
 
 
         }

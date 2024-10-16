@@ -6,13 +6,18 @@ import java.util.Scanner;
 
 public class Driver {
 
+   //GLOBAL
+   Scanner sayi = new Scanner(System.in);
     public static void main(String[] args) {
 
-        dateSinifiile_printfOrnekleri();
+
+System.out.print("Hello World");
+
+       // dateSinifiile_printfOrnekleri();
 
        // iciceDongu();
-       // carpimTablosu();
-        //kosulOrnekleri();
+      //  carpimTablosu();
+      //  kosulOrnekleri();
         //donguOrnekleri();
         //sayiTahminOyunu();
         /*
@@ -30,9 +35,22 @@ public class Driver {
     private static void sayiTahminOyunu() {
         int hak = 3;
         Random random = new Random();
+
+
+//        Random rs = new Random();
+//        int b = rs.nextInt(100);
+
+//        Scanner uretilensayi = new Scanner(System.in);
+//        System.out.println("bir sayı giriniz ? ");
+//        int a = uretilensayi.nextInt();
+
+
+
+
         int uretilen = random.nextInt(100);
         Scanner sayi = new Scanner(System.in);
         while (hak > 0){
+            System.out.println(uretilen);
             System.out.println("0-100 arası sayı tahmin ediniz: ");
             int ksayi = sayi.nextInt();
             hak -= 1;
@@ -64,6 +82,9 @@ public class Driver {
 
         }
         System.out.printf("Sayı toplamları %d%n",toplam);
+        System.out.println("Sayıların toplamı " + toplam);
+
+
 
 int sayi = 1;
 int faktor = 5;
@@ -105,32 +126,36 @@ while (sayi <= faktor ){
 
     private static void kosulOrnekleri() {
         //KOŞULLAR
-     /* int a = 5;
-  if (a<4){
-      System.out.println("a sayısı 4 den küçüktür.");
-  }else if (a<6) {
-      System.out.println("a sayısı 6 dan küçüktür");
+        int a = 5;
 
-  } else{
-      System.out.println("a sayısı 6 dan büyüktür");
-  }
-*/
+        if (a < 4) {
+            System.out.println("a sayısı 4 den küçüktür.");
+        } else if (a < 6) {
+            System.out.println("a sayısı 6 dan küçüktür");
+
+        } else {
+            System.out.println("a sayısı 6 dan büyüktür");
+        }
+
+
         Scanner al = new Scanner(System.in);
         System.out.println("Yaşınızı giriniz : ");
+
         int yas = al.nextInt();
 
-        if (yas>=18){
+        if (yas >= 18) {
             System.out.println("Ehliyet alabilirsiniz.");
-        }
-        else if (yas >=21) {
+        } else if (yas >= 21) {
             System.out.println("E ehliyeti alabilirsiniz.");
 
-        }else{
+        } else {
             System.out.println("ehliyet alamazsınız");
         }
 
+
+        System.out.println("Günü giriniz : ");
         int gun = al.nextInt();
-        switch (gun){
+        switch (gun) {
             case 4:
                 System.out.println("bugün perşembedir");
                 break;
@@ -143,11 +168,13 @@ while (sayi <= faktor ){
 
             default:
                 System.out.println("doğru gün sayısı girilmedi");
+
+
         }
 
-    }
 
-    public static void iciceDongu (){
+    }
+    public static void iciceDongu(){
         int boyut = 5;
         for (int i = 0; i < boyut ; i++) {
             System.out.print("* ");
@@ -164,9 +191,9 @@ while (sayi <= faktor ){
         int satir = 10;
         int sutun = 10;
 
-        for (int i = 0; i <= satir; i++) {
+        for (int i = 1; i <= satir; i++) {
             System.out.printf("%2d ",i);
-            for (int j = 0; j <= sutun; j++) {
+            for (int j = 1; j <= sutun; j++) {
 
                 System.out.printf("%2d ", i*j);
 
@@ -178,6 +205,7 @@ while (sayi <= faktor ){
 
     public static void dateSinifiile_printfOrnekleri(){
         Date bugun = new Date();
+
         System.out.printf("Gün tarih ve saati %s%n",bugun);
         System.out.printf("türkçe olarak tarih %tc%n",bugun);
         System.out.printf("yıl gün ay olarak %tF%n",bugun);

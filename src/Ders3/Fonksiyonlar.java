@@ -13,16 +13,14 @@ public class Fonksiyonlar {
     //protected
 
     private String ozelnesne = "Özel nesne";
+    private int yas = 15;
+
+    public String bilgileriGoster(String a) {
 
 
-    public static void nesnesiz() {
-        System.out.println("nesnesiz static fonksiyondur");
 
+        return a;
 
-    }
-
-    public void nesneli() {
-        System.out.println("nesne gerektiren static olmayan fonksiyon");
     }
 
     public String getOzelnesne() {
@@ -33,7 +31,30 @@ public class Fonksiyonlar {
         this.ozelnesne = ozelnesne;
     }
 
-    public static int topla(int a, int b) {
+    public int getYas() {
+        return yas;
+    }
+
+    public void setYas(int yas) {
+        this.yas = yas;
+    }
+
+    public static void nesnesiz() {
+        System.out.println("nesnesiz static fonksiyondur");
+
+
+    }
+
+    public void nesneli() {
+
+
+
+        System.out.println("nesne gerektiren static olmayan fonksiyon");
+
+
+    }
+
+      public static int topla(int a, int b) {
 
         // Bu kısım method içinde olacakların işlevi
 
@@ -69,6 +90,8 @@ public class Fonksiyonlar {
 
 
     }
+//Recursive Fonksiyonu
+
 
     public static int faktoriyel(int faktorsayisi) {
 
@@ -81,6 +104,7 @@ public class Fonksiyonlar {
 
 
 
+        //Built in function Gömülü Fonksiyonlar
 
     public static int random(int sayi){
         Random a = new Random();
@@ -96,6 +120,8 @@ public class Fonksiyonlar {
 
         return uretilensayi;
     }
+
+
 
 
     }

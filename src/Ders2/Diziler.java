@@ -7,10 +7,10 @@ public class Diziler {
 
     public static void main(String[] args) {
 
-        paraUstuVerme();
-        cokBoyutluDiziler();
+       paraUstuVerme();
+      // cokBoyutluDiziler();
 
-        sayiSiralama();
+     //   sayiSiralama();
 
 
     }
@@ -18,8 +18,34 @@ public class Diziler {
     private static void sayiSiralama() {
 
         int [] sayilar = {6,7,8,8,93,123,2};
+        int [] sayilar2 = {3,4,5,6,6,4,53};
+
+        int sayilar3 [] = {4,5,6,7,9};
+
+
+
+
+
+
+        System.out.println(sayilar2[5]);
+
+
 
         Arrays.sort(sayilar);
+        for (int i = 0; i < sayilar.length; i++) {
+            System.out.print(sayilar[i]);
+
+
+        }
+        System.out.println();
+        System.out.println(sayilar3); //ID
+
+
+
+
+
+
+
         System.out.println(sayilar[sayilar.length - 1]); // En büyük eleman
 
        int enkucuk =  sayilar[0] ; //En küçük eleman
@@ -37,18 +63,19 @@ public class Diziler {
 
     private static void cokBoyutluDiziler() {
 
-        int[][] cokBoyutluOrnek ={{1,2,3,4,11},{5,6,7,8,12},{9,10,11,12,13},{18,19,20,21,22}};
-
-        System.out.println(cokBoyutluOrnek[0][2]); // 3 gelir
+        int[][] cokBoyutluOrnek ={{1,2,3,4,11},{5,6,7,8,12},{9,10,11,12,13},{18,19,20,21,22},{5}};
 
 
 
+        System.out.println(cokBoyutluOrnek[0][2]); // 3 gelir,
+
+        System.out.println(cokBoyutluOrnek[2][2]); // 11 gelir
 
 
 
     }
 
-    public static void tekBoyutluDiziOrnekleri (){
+    public static void tekBoyutluDiziOrnekler(){
 
         String a = new String("Medipol");
 
@@ -60,16 +87,13 @@ public class Diziler {
         Arrays.copyOfRange(siralamaIcin,2,4);
         Arrays.copyOf(intDizisi,2);
 
-
-
-
-
-
-
+        a.charAt(3); //i gelir
 
         int [] intDizisi3 = new int[10];
         intDizisi3[0] = 4;
-        // intDizisi3[13] = 5;
+        intDizisi3[13] = 5; //Indexoutofbounds hatası alınır
+
+
 
         int toplam = 0 ;
         for (int i = 0; i < intDizisi2.length; i++) {
@@ -79,15 +103,30 @@ public class Diziler {
 
         System.out.println();
         System.out.println("Toplam : " + toplam);
+
+
         for (int i = 0; i < a.length(); i++) {
             System.out.print(a.charAt(i)+ " ");
 
         }
 
+
+
 //FOREACH DÖNGÜSÜ - DİZİLERDE KULLANILABİLİR.
         for(int number:intDizisi){
             System.out.println(number);
         }
+
+
+        for (int t :siralamaIcin){
+
+            if(t%2==0){
+                System.out.println(t);
+            }
+        }
+
+
+
 
     }
 
@@ -114,13 +153,13 @@ public class Diziler {
 
 
 
-       /* for (int a : tedavulparalar){
+        /*for (int a : tedavulparalar){
             if (sayi/tedavulparalar[a]!=0){
                 System.out.println(sayi/tedavulparalar[a] + "adet" + tedavulparalar[a]);
             }
             sayi = sayi - (sayi/tedavulparalar[a] * tedavulparalar[a]);
-        }*/
-
+        }
+*/
 
 
 

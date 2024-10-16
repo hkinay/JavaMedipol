@@ -1,4 +1,4 @@
-package org.example;
+package Ders10.JavaDers10.src.main.java.org.example;
 
 import com.mysql.jdbc.Driver;
 
@@ -53,6 +53,7 @@ public class Main {
 
           baglanti.urunlerigetir();
           baglanti.urunleriekle();
+          baglanti.urunguncelle();
 
 
 
@@ -73,6 +74,15 @@ public class Main {
 
         statement= con.createStatement();
         String SQL = "INSERT INTO urunler (urunID,satıcıID,urunfiyat,urundetay) VALUES ('434','ds33',3434,'detay kısmı')";
+
+        statement.executeUpdate(SQL);
+
+    }
+
+    private void urunguncelle() throws SQLException {
+
+        statement= con.createStatement();
+        String SQL = "UPDATE urunler SET urunfiyat=10 WHERE satıcıID='ds33'";
 
         statement.executeUpdate(SQL);
 
