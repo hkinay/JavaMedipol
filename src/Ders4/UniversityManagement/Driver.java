@@ -1,25 +1,33 @@
 package Ders4.UniversityManagement;
 
+import javax.swing.text.rtf.RTFEditorKit;
+
 public class Driver {
 
     public static void main(String[] args) {
-        Academic academic = new Academic("Ahmet",12,"1985",10,"Aşçılık","Doçent");
 
-        System.out.println(academic.id);
-        System.out.println(academic.maasAlma(40000));
-
-        Staff staff = new AdminManagement("Hasan",34,"1999",5,"Mali İşler");
-
-        int i = staff.maasAlma(1000);
-        System.out.println(staff.id + " numaralı çalışanın maaşı " + i);
-
-        Staff staff2 = new Academic("Jale",35,"2000",4,"Bilgisayar Mühendisliği","Araş. Gör");
+       /* IdariPersonel m1 = new IdariPersonel("Ahmet Kaplan","34243232","a@a.com",14.5,true,2,"myo");
 
 
+        System.out.println(m1.getIsimsoyisim());
 
-        int k = staff2.maasAlma(1000);
-        System.out.println(staff2.id + " numaralı çalışanın maaşı " + k);
-    }
+        Academic a1 = new Academic("Mehmet Ali","3432423","k@k.com",34,false,3,"CENG","Prof.");
 
 
-}
+        a1.maasAlma(4000);
+
+        System.out.println();
+
+        a1.bilgilerigoster();
+
+        Rector r1 = (Rector) new IdariPersonel("Ali Veli","453534","m@m.com",345.5,true,3,"Rektör");
+
+
+        r1.getDepartman();*/
+
+       OnlisansOgrenci onlisansOgrenci = new OnlisansOgrenci("Ayşe",232,"34342","10.10.2020");
+
+        onlisansOgrenci.bilgiGoster();
+
+
+}}

@@ -1,10 +1,10 @@
 package Ders4.UniversityManagement;
 
-public class Rector extends AdminManagement{
-    
-    
-    public Rector(String isimsoyisim, int id, String dtarihi, int kidemyili, String daire) {
-        super(isimsoyisim, id, dtarihi, kidemyili, daire);
+public class Rector extends IdariPersonel {
+
+
+    public Rector(String isimsoyisim, String telefon, String mailadres, double maas, boolean sozlesme, int kidem, String departman) {
+        super(isimsoyisim, telefon, mailadres, maas, sozlesme, kidem, departman);
     }
 
     @Override
