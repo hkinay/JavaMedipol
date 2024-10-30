@@ -1,4 +1,8 @@
 import Ders3.*;
+import Ders5.DI.SmsProvider;
+import Ders5.DI.SmsService;
+import Ders5.DI.TurkcellSmsProvider;
+import Ders5.DI.VodafoneSMSProvider;
 import Ders6.Linkedlistler;
 import Ders9.GenericClass;
 import Ders9.GenericsJava;
@@ -6,6 +10,7 @@ import Ders9.SiralamaAlgoritmalari;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -51,12 +56,12 @@ public class Main {
 
 
 
-       /* //Dependency Injection
+
         Scanner al = new Scanner(System.in);
         System.out.println("Mesajınız : ");
         String mesaj = al.nextLine();
 
-     //   String mesaj = "Merhaba dependency Injection";
+     //String mesaj = "Merhaba dependency Injection";
 
         SmsProvider turkcell = new TurkcellSmsProvider();
         SmsService smsService = new SmsService(turkcell);
@@ -65,7 +70,7 @@ public class Main {
         SmsProvider vodafone = new VodafoneSMSProvider();
         SmsService smsService2 = new SmsService(vodafone);
         smsService2.smsGonder(mesaj);
-*/
+
 
 
 

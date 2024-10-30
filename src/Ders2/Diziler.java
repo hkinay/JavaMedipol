@@ -83,6 +83,8 @@ public class Diziler {
         int intDizisi2[] ={6,7,8,9,10};
         int [] siralamaIcin = {9,3,88,2,4};
 
+
+
         Arrays.sort(siralamaIcin); // siralamaIcin = {2,3,4,9,88}
         Arrays.copyOfRange(siralamaIcin,2,4);
         Arrays.copyOf(intDizisi,2);
