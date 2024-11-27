@@ -13,8 +13,6 @@ public class Urunler {
 
     private String urunadi;
     private double fiyat;
-    private LocalDate sktTarih;
-    private int stoksayisi;
 
     public String getUrunadi() {
         return urunadi;
@@ -47,4 +45,9 @@ public class Urunler {
     public void setStoksayisi(int stoksayisi) {
         this.stoksayisi = stoksayisi;
     }
+
+    private LocalDate sktTarih;
+    private int stoksayisi;
+
+
 }
