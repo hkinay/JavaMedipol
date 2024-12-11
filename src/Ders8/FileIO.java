@@ -6,11 +6,12 @@ import java.util.Scanner;
 
 public class FileIO {
 
-    String dosyayolu = "C:\\Users\\husey\\OneDrive\\Desktop\\Medipol\\filejavayeni.txt";
+    static String dosyayolu = "C:\\Users\\husey\\OneDrive\\Desktop\\Medipol\\filejavayeni.txt";
     File dosya = new File(dosyayolu);
     public static void main(String[] args) throws IOException{
 
         dosyaYaz();
+
         System.out.println("--------DOSYA BİLGİLERİ -------------");
             FileIO fobj = new FileIO();
             File dosyam = fobj.dosya;
@@ -39,8 +40,8 @@ public class FileIO {
 
     }
     public static void dosyaYaz() throws IOException {
-        FileWriter yazici = new FileWriter("C:\\Users\\husey\\OneDrive\\Desktop\\Medipol\\filejavayeni.txt");
-                yazici.write("Bu dosyanın içerisine eklemek istiyorum. ");
+        FileWriter yazici = new FileWriter(dosyayolu);
+                yazici.write("Bu dosyanın içerisine eklemek istiyorum. Dosyanın uzunluğu artıyor");
                 yazici.close();
 
         System.out.println("Başarı ile eklendi.");
