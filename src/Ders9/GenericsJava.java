@@ -17,6 +17,10 @@ public class GenericsJava {
         nonGenericList.add(321646546);
         nonGenericList.add(565.5);
 
+
+        String k = (String) nonGenericList.get(0);  //cast gerekli
+
+
         genericListe.add("Genericlerde string belirtildiği için sadece String atanabilir");
 
         genericListe.add("<veriTipi> bu yapıya elmas denir");
@@ -43,6 +47,11 @@ public class GenericsJava {
         GenericClass<Integer> urunId = new GenericClass<>();
         GenericClass<String> urunAd = new GenericClass<>();
 
+        Box<Integer> boxid = new Box<>();
+        boxid.set(100);
+
+
+
         urunId.addList(1001);
         urunId.addList(1002);
         urunId.addList(1003);
@@ -58,6 +67,14 @@ public class GenericsJava {
             System.out.println("Ürün Adı : " + urunAds.get(i) +"\nÜrün Barkodu : " +  urunIDs.get(i));
 
         }
+
+        //Çoklu Key Value Parametreli Generic Class Örneği
+
+        CokluTipParametreliSınıf<String,Integer> cokluTipParametreliSınıf = new CokluTipParametreliSınıf<>("Yaş" , 39);
+
+
+
+
 
 
         System.out.println("-------------OzelTip Class Örneği ---------");
@@ -79,6 +96,13 @@ public class GenericsJava {
         System.out.println("----------Sözlük Örneği --------------");
 
         IkiTipGenericClass<String,String> sozlugum = new IkiTipGenericClass<String,String>();
+        IkiTipGenericClass<String,Integer> siniflistesi = new IkiTipGenericClass<String,Integer>();
+
+        siniflistesi.AddDict("Hüseyin",25);
+        siniflistesi.AddDict("Ayşe",36);
+
+
+
 
         sozlugum.AddDict("Elma","Apple");
         sozlugum.AddDict("Mukava","Nice");
@@ -89,6 +113,8 @@ public class GenericsJava {
         System.out.println(sozlugum.getDict("Stark")); //Güçlü
         System.out.println(sozlugum.getDict("Patlıcan")); //Eggplant
 
+
+        System.out.println(siniflistesi.getDict("Hüseyin")); //25
 
     }
     public int genericMethod (int a){

@@ -12,5 +12,16 @@ public class GenericClass <T>{
     public ArrayList<T> getListem(){
         return this.listem;
     }
+
+
+
+
+
 }
+
+
+
+
+
+
 
