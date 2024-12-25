@@ -10,7 +10,7 @@ import java.sql.*;
 public class Main {
 
     private String userName = "root";
-    private String password ="";
+    private String password ="1234";
     private String db_ismi = "ilerijava";
 
     private String host = "localhost";

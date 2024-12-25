@@ -1,4 +1,4 @@
-package Ders10;
+package Ders10.JavaDers10;
 
 import java.sql.*;
 
@@ -17,7 +17,7 @@ public class SqlServerBaglan {
         try
 
         {
-            String connectionURL = "jdbc:jtds:sqlserver://./";
+            String connectionURL = "jdbc:mysql://./";
 
             conn = DriverManager.getConnection(connectionURL);
             if(conn!=null){
