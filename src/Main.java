@@ -1,3 +1,5 @@
+import Ders1.Driver;
+import Ders2.Diziler;
 import Ders3.*;
 import Ders5.DI.SmsProvider;
 import Ders5.DI.SmsService;
@@ -10,6 +12,7 @@ import Ders9.SiralamaAlgoritmalari;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -17,6 +20,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+
+
+        Driver.carpimTablosu();
+
+
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.offer(5);
+        pq.offer(1);
+        pq.offer(3);
+        System.out.print(pq.poll()+ " ");
+        System.out.print(pq.poll()+ " ");
+        System.out.print(pq.poll());
 
         Fonksiyonlar fr = new Fonksiyonlar();
         fr.getYas();

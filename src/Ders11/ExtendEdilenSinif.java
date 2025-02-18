@@ -1,7 +1,6 @@
 package Ders11;
 
-public class ExtendEdilenSinif extends  Thread{
-
+public class ExtendEdilenSinif extends Thread{
     public void run(){
 
         try {
@@ -9,6 +8,9 @@ public class ExtendEdilenSinif extends  Thread{
         }catch (Exception e){
             System.out.println("Hata yakalandı.");
         }
+
+
+
 
 
 

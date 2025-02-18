@@ -9,7 +9,7 @@ public class WaitNotify {
     public void thread1fonksiyonu(){
 
         synchronized (lock){
-            System.out.println("Thread1 çalıştırılıyor");
+            System.out.println("Thread4 çalıştırılıyor");
 
             System.out.println("Thread1 , Thread2 nin kendisini uyandırmasını bekliyor.. ");
 
@@ -31,7 +31,7 @@ public class WaitNotify {
         Scanner scanner = new Scanner(System.in);
 
         synchronized (lock){
-            System.out.println("Thread2 çalıştırılıyor");
+            System.out.println("Thread5 çalıştırılıyor");
             System.out.println("Devam etmek için herhangi bir tuşa basınız.");
             scanner.next();
             lock.notify();

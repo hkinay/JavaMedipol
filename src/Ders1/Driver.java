@@ -7,19 +7,34 @@ import java.util.Scanner;
 public class Driver {
 
    //GLOBAL
+
+    public int yeniDegisken = 20;
+
+
    Scanner sayi = new Scanner(System.in);
     public static void main(String[] args) {
 
+       int yeniLocalDegisken = 20;
 
-System.out.print("Hello World");
 
-       // dateSinifiile_printfOrnekleri();
+      //  olmayanMethod();
+       // kosulOrnekleri();
+
+
+       /* Mantıksal işleç == , !=, <,>, <=, >= , && , ||
+
+        Aritmetik İşleç +, - , *, /, //, %, */
+
+
+       // System.out.print("Hello World");
+
+        dateSinifiile_printfOrnekleri();
 
        // iciceDongu();
-      //  carpimTablosu();
-      //  kosulOrnekleri();
+      //carpimTablosu();
+
         //donguOrnekleri();
-        //sayiTahminOyunu();
+       // sayiTahminOyunu();
         /*
         Scanner nesne = new Scanner(System.in);
         System.out.println("Faktöriyel için bir sayı ver: ");
@@ -32,21 +47,23 @@ System.out.print("Hello World");
 
     }
 
+    private static void olmayanMethod() {
+
+        String isim  = "Hüseyin";
+        System.out.println(isim);
+
+    }
+
     private static void sayiTahminOyunu() {
         int hak = 3;
         Random random = new Random();
 
-
-//        Random rs = new Random();
-//        int b = rs.nextInt(100);
+     /*   Random rs = new Random();
+        int b = rs.nextInt(100);*/
 
 //        Scanner uretilensayi = new Scanner(System.in);
 //        System.out.println("bir sayı giriniz ? ");
 //        int a = uretilensayi.nextInt();
-
-
-
-
         int uretilen = random.nextInt(100);
         Scanner sayi = new Scanner(System.in);
         while (hak > 0){
@@ -165,6 +182,9 @@ while (sayi <= faktor ){
                 System.out.println("bugün cumadır.");
                 break;
 
+            case 6:
+                System.out.println("Bugün cumartesidir");
+                break;
 
             default:
                 System.out.println("doğru gün sayısı girilmedi");
