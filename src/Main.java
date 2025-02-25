@@ -23,10 +23,8 @@ public class Main {
 
 
 
+
         Driver.carpimTablosu();
-
-
-
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.offer(5);
         pq.offer(1);
@@ -40,7 +38,7 @@ public class Main {
         fr.setYas(16);
 
         String r= fr.bilgileriGoster("Ahmet");
-        fr.nesneli();
+        fr.nesneli(); //Instance Method, Nesne gerektirdi
 
 
         Fonksiyonlar.nesnesiz();
@@ -74,7 +72,7 @@ public class Main {
 
 
 
-        Scanner al = new Scanner(System.in);
+  /*      Scanner al = new Scanner(System.in);
         System.out.println("Mesajınız : ");
         String mesaj = al.nextLine();
 
@@ -87,10 +85,9 @@ public class Main {
         SmsProvider vodafone = new VodafoneSMSProvider();
         SmsService smsService2 = new SmsService(vodafone);
         smsService2.smsGonder(mesaj);
+*/
 
-
-
-
+        Fonksiyonlar.nesnesiz();//Static olduğu için sınıf üzerinden çağrılabildi.
 
 
 
@@ -115,26 +112,39 @@ public class Main {
         Fonksiyonlar.min(4,9);
 
         int faktor = Fonksiyonlar.faktoriyel(6);
+
         System.out.println(faktor);
-
-
 
 
 
         System.out.println("--------------Inheritance Örneği---------------");
 
+
+        System.out.println("--------------Volkswagen ÖRNEĞİ------------");
+        Volkswagen v1 = new Volkswagen("21551794V",100,20,190,"Gri","DSG");
+        v1.move();
+        v1.park();
+
+
+
+        System.out.println("--------------AUDİ ÖRNEĞİ------------");
        Audi audi1 = new Audi("er3",34,23,100,"siyah","deri");
        Audi audi2 = new Audi();
        audi2.platenumber="434d";
+
+        System.out.println("--------ÇALIŞAN ÖRNEĞİ ------------");
+        Yoneticiler y1 = new Yoneticiler("Ahmet","Kaplan","İK","Beylikdüzü","1985","Medipol",2020);
+        Memurlar m1 = new Memurlar("Jale","Yıldız","Pazarlama","Gebze","2005");
+
+        y1.arabaKullan(true);
+        m1.arabaKullan(true); // false dönecek
+
 
 
         audi1.accelerate(10);
         audi1.accelerate(10,4);
 
-
-
         audi1.bilgiGoster();
-
 
         Renault reno1 = new Renault();
 

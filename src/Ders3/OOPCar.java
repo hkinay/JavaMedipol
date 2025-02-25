@@ -6,8 +6,7 @@ public abstract class OOPCar{
     public int xlocation;
     public int ylocation;
     public int speed;
-
-public String colour;
+    public String colour;
 
     public OOPCar(String platenumber, int xlocation, int ylocation, int speed, String colour) {
         this.platenumber = platenumber;

@@ -64,6 +64,10 @@ public class Stringler {
         String yeniekleme2 = isim.concat(" ").concat(uni);
 
 
+        boolean arama = yeniekleme.endsWith("l"); //true
+        boolean bastanarama = yeniekleme.startsWith("A"); //false
+
+
 
     }
 }

@@ -7,21 +7,17 @@ import java.util.Random;
 
 public class Fonksiyonlar {
 
+    public static void main(String[] args) {
+
+        System.out.println(faktoriyel(5));
+        double yenius =  Math.pow(3,2);
+
+    }
+
 
     //public
     //private
     //protected
-
-    private String ozelnesne = "Özel nesne";
-    private int yas = 15;
-
-    public String bilgileriGoster(String a) {
-
-
-
-        return a;
-
-    }
 
     public String getOzelnesne() {
         return ozelnesne;
@@ -39,6 +35,22 @@ public class Fonksiyonlar {
         this.yas = yas;
     }
 
+    private String ozelnesne = "Özel nesne";
+    private int yas = 15;
+
+    public String bilgileriGoster(String a) {
+
+        return a;
+
+    }
+
+
+    public static void parametresizFonk(){
+        System.out.println("Bu bir parametresiz fonksiyondur. Parametre gerektirmeksizin çalışır");
+    }
+
+
+
     public static void nesnesiz() {
         System.out.println("nesnesiz static fonksiyondur");
 
@@ -47,22 +59,19 @@ public class Fonksiyonlar {
 
     public void nesneli() {
 
-
-
         System.out.println("nesne gerektiren static olmayan fonksiyon");
 
 
     }
 
       public static int topla(int a, int b) {
-
         // Bu kısım method içinde olacakların işlevi
-
         int toplam = a + b;
         return toplam;
     }
 
     public static int topla(int a, int b, int c) {
+        //Method Overloading
 
         return a + b + c;
     }
@@ -98,7 +107,7 @@ public class Fonksiyonlar {
             if (faktorsayisi == 0 || faktorsayisi == 1) {
                 return 1;
             }
-            return faktorsayisi + faktoriyel(faktorsayisi - 1);
+            return faktorsayisi * faktoriyel(faktorsayisi - 1);
         }
 
 
@@ -111,14 +120,10 @@ public class Fonksiyonlar {
         int uretilensayi = a.nextInt(7,77);
         a.nextInt(100);
         a.nextInt(34,99);
-
-
         double matematiksayisi = Math.random();
 
-
-
-
         return uretilensayi;
+
     }
 
 
