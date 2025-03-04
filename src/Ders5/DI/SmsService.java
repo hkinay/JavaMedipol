@@ -9,6 +9,9 @@ public class SmsService {
 
     //dependency injection
     public void smsGonder (String mesaj){
+
+
+
         smsProvider.smsGonder(mesaj);
     }
 }

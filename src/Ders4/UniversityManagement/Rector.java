@@ -7,9 +7,13 @@ public class Rector extends IdariPersonel {
         super(isimsoyisim, telefon, mailadres, maas, sozlesme, kidem, departman);
     }
 
+
+
     @Override
     public int maasAlma(int maas) {
         return super.maasAlma(maas) + 50000;
         
     }
+
+
 }

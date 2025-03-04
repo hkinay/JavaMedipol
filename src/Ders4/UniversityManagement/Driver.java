@@ -6,6 +6,9 @@ public class Driver {
 
     public static void main(String[] args) {
 
+
+
+
        /* IdariPersonel m1 = new IdariPersonel("Ahmet Kaplan","34243232","a@a.com",14.5,true,2,"myo");
 
 
@@ -24,10 +27,16 @@ public class Driver {
 
 
         r1.getDepartman();*/
-
+/*
        OnlisansOgrenci onlisansOgrenci = new OnlisansOgrenci("Ayşe",232,"34342","10.10.2020");
 
-        onlisansOgrenci.bilgiGoster();
+        onlisansOgrenci.bilgiGoster();*/
+
+
+        AcikOgretimOgrenci acikOgretimOgrenci = new AcikOgretimOgrenci("Mehmet",1001,"YBS",1.5f,32);
+        acikOgretimOgrenci.bilgiGoster();
+        acikOgretimOgrenci.dersAlma();
+
 
 
 }}

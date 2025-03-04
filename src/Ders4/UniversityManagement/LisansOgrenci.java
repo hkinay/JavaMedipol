@@ -3,7 +3,6 @@ package Ders4.UniversityManagement;
 public class LisansOgrenci implements StudentService{
     public  String isim;
     public int stid;
-
     public String bolum;
     public double gpa;
 
@@ -22,6 +21,7 @@ public class LisansOgrenci implements StudentService{
 
     @Override
     public void ucretOde() {
+        System.out.println("lisans öğrencisi her dönem 1000 tl öder");
 
 
     }

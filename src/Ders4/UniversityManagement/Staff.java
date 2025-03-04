@@ -24,13 +24,10 @@ public abstract class Staff {
 
     }
 */
-
-
     private String isimsoyisim;
     private String telefon;
     private String mailadres;
     private double maas;
-
     public boolean sozlesme;
     public int kidem;
 
