@@ -1,0 +1,72 @@
+
+h
+java:S1192"FDefine a constant instead of duplicating this literal "Ahmet" 3 times.(ÄâÈ…şÿÿÿÿ8ÊªÇÌÑ2
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ê±ºüÿÿÿÿ8ÌªÇÌÑ2
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(é£µŒÿÿÿÿÿ8ÌªÇÌÑ2
+^
+java:S4973 "<Strings and Boxed types should be compared using "equals()".(Óœ™‡øÿÿÿÿ8ÌªÇÌÑ2
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âı¢8ÍªÇÌÑ2
+a
+java:S1854D"?Remove this useless assignment to local variable "bastanarama".(øÍ®Íúÿÿÿÿ8ÚªÇÌÑ2
+[
+java:S1854C"9Remove this useless assignment to local variable "arama".(ˆ½Á‘ÿÿÿÿÿ8ÛªÇÌÑ2
+a
+java:S1854@"?Remove this useless assignment to local variable "yeniekleme2".(ÈšÎğüÿÿÿÿ8ÛªÇÌÑ2
+`
+java:S18546">Remove this useless assignment to local variable "yeniicevir".(¨Ôîÿÿÿÿÿ8ÛªÇÌÑ2
+Z
+java:S18545"=Remove this useless assignment to local variable "yenicevir".(©ÈÈà8ÛªÇÌÑ2
+V
+java:S1854$"9Remove this useless assignment to local variable "esit5".(ãÒƒâ8ÛªÇÌÑ2
+[
+java:S1854!"9Remove this useless assignment to local variable "esit4".(ãÖöÚşÿÿÿÿ8ÛªÇÌÑ2
+[
+java:S1854 "9Remove this useless assignment to local variable "esit3".(Óœ™‡øÿÿÿÿ8ÛªÇÌÑ2
+[
+java:S1854"9Remove this useless assignment to local variable "esit2".(é£µŒÿÿÿÿÿ8ÛªÇÌÑ2
+V
+java:S1854"9Remove this useless assignment to local variable "esit1".(¸çß8ÛªÇÌÑ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ù¿éûÿÿÿÿ8ÜªÇÌÑ2
+B
+java:S2129" Remove this "String" constructor(Ü¥¾—ûÿÿÿÿ8ŞªÇÌÑ2
+=
+java:S2129" Remove this "String" constructor(à®…ş8ßªÇÌÑ2
+L
+java:S2201"*The return value of "length" must be used.(ƒ¦”óüÿÿÿÿ8ßªÇÌÑ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıÖß—şÿÿÿÿ8ßªÇÌÑ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ê±ºüÿÿÿÿ8ßªÇÌÑ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ò»ÿËúÿÿÿÿ8ßªÇÌÑ2
+G
+java:S1481"*Remove this unused "esit1" local variable.(¸çß8àªÇÌÑ2
+L
+java:S1481"*Remove this unused "esit2" local variable.(é£µŒÿÿÿÿÿ8áªÇÌÑ2
+L
+java:S1481 "*Remove this unused "esit3" local variable.(Óœ™‡øÿÿÿÿ8áªÇÌÑ2
+L
+java:S1481!"*Remove this unused "esit4" local variable.(ãÖöÚşÿÿÿÿ8áªÇÌÑ2
+G
+java:S1481$"*Remove this unused "esit5" local variable.(ãÒƒâ8áªÇÌÑ2
+U	java:S106("9Replace this use of System.out or System.err by a logger.(²±ØĞ8âªÇÌÑ2
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(÷ª–¡ÿÿÿÿÿ8âªÇÌÑ2
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ıö‡Ñüÿÿÿÿ8âªÇÌÑ2
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(Ÿˆôªÿÿÿÿÿ8âªÇÌÑ2
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(«³ıµÿÿÿÿÿ8âªÇÌÑ2
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(‰ßü°8ãªÇÌÑ2
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(—˜¸Æıÿÿÿÿ8ãªÇÌÑ2
+H
+java:S2201/",The return value of "contains" must be used.(‹ÔÌ8ãªÇÌÑ2
+M
+java:S22010"+The return value of "indexOf" must be used.(³Ñ¸Çÿÿÿÿÿ8ãªÇÌÑ2
+K
+java:S14815".Remove this unused "yenicevir" local variable.(©ÈÈà8åªÇÌÑ2
+Q
+java:S14816"/Remove this unused "yeniicevir" local variable.(¨Ôîÿÿÿÿÿ8åªÇÌÑ2
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(Æ¶Êøÿÿÿÿ8æªÇÌÑ2
+R
+java:S1481@"0Remove this unused "yeniekleme2" local variable.(ÈšÎğüÿÿÿÿ8çªÇÌÑ2
+L
+java:S1481C"*Remove this unused "arama" local variable.(ˆ½Á‘ÿÿÿÿÿ8çªÇÌÑ2
+R
+java:S1481D"0Remove this unused "bastanarama" local variable.(øÍ®Íúÿÿÿÿ8çªÇÌÑ2

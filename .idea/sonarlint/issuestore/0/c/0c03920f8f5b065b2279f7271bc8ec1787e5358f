@@ -1,0 +1,25 @@
+
+e
+java:S1192"HDefine a constant instead of duplicating this literal "Ã‡Ä±nar" 3 times.(Èöºş8­öª³²2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Ø¢€8ç§³²2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ìßøÿÿÿÿ8ç§³²2
+I
+java:S2201"'The return value of "get" must be used.(ÒĞÌ‹üÿÿÿÿ8¢ç§³²2
+R
+java:S2201"0The return value of "getOrDefault" must be used.(®¸Æ¶úÿÿÿÿ8¢ç§³²2
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(è¦§ 8ªç§³²2
+j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğã×Ë8£ç§³²2
+[
+java:S1854P"9Remove this useless assignment to local variable "varMi".(™³²ÿÿÿÿÿ8¤ç§³²2
+W
+java:S1854N":Remove this useless assignment to local variable "numara".(òı 8¤ç§³²2
+H
+java:S1481N"+Remove this unused "numara" local variable.(òı 8¦ç§³²2
+L
+java:S1481P"*Remove this unused "varMi" local variable.(™³²ÿÿÿÿÿ8¨ç§³²2
+E
+java:S2201U"(The return value of "size" must be used.(³ÀÏù8¨ç§³²2
+]	java:S125S"<This block of commented-out lines of code should be removed.(é‘Ë—ıÿÿÿÿ8©ç§³²2
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ÑëÁ ûÿÿÿÿ8«ç§³²2
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(Êé‘àúÿÿÿÿ8ø÷¬³²2
+X	java:S125c"<This block of commented-out lines of code should be removed.(Òè—Ó8«ç§³²2

@@ -1,0 +1,11 @@
+
+g	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£Â¢ö¿2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÕŒÜ8¥Â¢ö¿2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ñðä¬8µÂ¢ö¿2
+]	java:S125"<This block of commented-out lines of code should be removed.(çÚ‡‚ýÿÿÿÿ8·ð£ö¿2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±ÓªÈ8¶Â¢ö¿2
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(™€Ìí8»Â¢ö¿2
+>
+java:S11168"Remove this empty statement.(ôŸŽìúÿÿÿÿ8¼Â¢ö¿2
+R
+java:S6437="6Revoke and change this password, as it is compromised.(‡„Ï8½Â¢ö¿2

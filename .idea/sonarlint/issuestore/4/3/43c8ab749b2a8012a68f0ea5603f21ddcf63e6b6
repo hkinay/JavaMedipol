@@ -1,0 +1,12 @@
+
+`	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+=
+java:S1604"(Make this anonymous inner class a lambda(ô§ê
+>
+java:S1604"(Make this anonymous inner class a lambda(¼×¨™
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢Ÿ÷Óùÿÿÿÿ
+h	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ø¿ˆÿÿÿÿÿ
+t
+java:S2142&"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ÈÂ˜şÿÿÿÿ

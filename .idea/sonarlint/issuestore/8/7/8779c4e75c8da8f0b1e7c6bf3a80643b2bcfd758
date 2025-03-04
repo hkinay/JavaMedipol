@@ -1,0 +1,61 @@
+
+t
+java:S1104"XMake yeniDegisken a static final constant or non-public and provide accessors if needed.(°©m8ØÍĞªÏ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öÏ‰Èÿÿÿÿÿ8ÚÍĞªÏ2
+b
+java:S1854"ERemove this useless assignment to local variable "yeniLocalDegisken".(½ô´8ØÎĞªÏ2
+S
+java:S1481"6Remove this unused "yeniLocalDegisken" local variable.(½ô´8ØÎĞªÏ2
+]	java:S125"<This block of commented-out lines of code should be removed.(õ£ˆ¢ùÿÿÿÿ8û•…ÉÑ2
+]	java:S125"<This block of commented-out lines of code should be removed.(Ä±ø¡ùÿÿÿÿ8ÙÎĞªÏ2
+X	java:S125"<This block of commented-out lines of code should be removed.(©ÑÛ¾8µ³¤ÉÑ2
+]	java:S125!"<This block of commented-out lines of code should be removed.(…‚¢¹øÿÿÿÿ8ÙÎĞªÏ2
+X	java:S125$"<This block of commented-out lines of code should be removed.(ÖŞöõ8ÙÎĞªÏ2
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ıÉŞ¬úÿÿÿÿ8ÚÎĞªÏ2
+:
+java:S2119;"Save and re-use this "Random".(¼İÅf8ÜÎĞªÏ2
+]	java:S125="<This block of commented-out lines of code should be removed.(ŞÕ”Èıÿÿÿÿ8¶²ûÈÑ2
+X	java:S125@"<This block of commented-out lines of code should be removed.(ÃæüÙ8ÜÎĞªÏ2
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(š÷«Öùÿÿÿÿ8İÎĞªÏ2
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(”¢à‘8İÎĞªÏ2
+]	java:S125J"<This block of commented-out lines of code should be removed.(ŒÔïüÿÿÿÿ8İÎĞªÏ2
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(Ò‰µú8İÎĞªÏ2
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ÊÍû°ùÿÿÿÿ8İÎĞªÏ2
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(í‰Ü¹8ßÎĞªÏ2
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8ßÎĞªÏ2
+U	java:S106e"9Replace this use of System.out or System.err by a logger.(‘íîÏ8ßÎĞªÏ2
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(…Ø¶Å8àÎĞªÏ2
+T	java:S106t"9Replace this use of System.out or System.err by a logger.(¯Æ¦8àÎĞªÏ2
+Z	java:S106y"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8áÎĞªÏ2
+V	java:S106€"9Replace this use of System.out or System.err by a logger.(ã‰Ï¡8ãÎĞªÏ2
+V	java:S106•"9Replace this use of System.out or System.err by a logger.(çÿó‚8ãÎĞªÏ2
+U	java:S106—"9Replace this use of System.out or System.err by a logger.(˜Ò†V8äÎĞªÏ2
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(ÙŞÌ­ùÿÿÿÿ8äÎĞªÏ2
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(è¥˜Îùÿÿÿÿ8åÎĞªÏ2
+V	java:S106¤"9Replace this use of System.out or System.err by a logger.(Ñ…›8æÎĞªÏ2
+V	java:S106¦"9Replace this use of System.out or System.err by a logger.(µ°ÓÛ8æÎĞªÏ2
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(èˆŠô8æÎĞªÏ2
+V	java:S106­"9Replace this use of System.out or System.err by a logger.(½¸‘Á8çÎĞªÏ2
+V	java:S106±"9Replace this use of System.out or System.err by a logger.(·Ó•¿8çÎĞªÏ2
+V	java:S106¶"9Replace this use of System.out or System.err by a logger.(ä¾µ„8çÎĞªÏ2
+[	java:S106º"9Replace this use of System.out or System.err by a logger.(¿®œçıÿÿÿÿ8çÎĞªÏ2
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(’´şËøÿÿÿÿ8êÎĞªÏ2
+[	java:S106È"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ8êÎĞªÏ2
+[	java:S106Ê"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ8êÎĞªÏ2
+[	java:S106Í"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ìÎĞªÏ2
+V	java:S106×"9Replace this use of System.out or System.err by a logger.(´ ¿½8íÎĞªÏ2
+[	java:S106Ú"9Replace this use of System.out or System.err by a logger.(éçôºşÿÿÿÿ8îÎĞªÏ2
+[	java:S106İ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ïÎĞªÏ2
+p	java:S100â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñüòÿüÿÿÿÿ8îÎĞªÏ2
+V	java:S106å"9Replace this use of System.out or System.err by a logger.(Ë»îà8ïÎĞªÏ2
+V	java:S106æ"9Replace this use of System.out or System.err by a logger.(èõ¶Ä8ğÎĞªÏ2
+[	java:S106ç"9Replace this use of System.out or System.err by a logger.(Ù´Âìûÿÿÿÿ8ğÎĞªÏ2
+V	java:S106è"9Replace this use of System.out or System.err by a logger.(›Ç¿8ğÎĞªÏ2
+[	java:S106é"9Replace this use of System.out or System.err by a logger.(‘¾Éëşÿÿÿÿ8ñÎĞªÏ2
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(äÌ„ûùÿÿÿÿ8Ë„€ÉÑ2
+O
+java:S11442"2Remove this unused private "olmayanMethod" method.(œ¼ü˜8 –…ÉÑ2
+Q
+java:S11449"4Remove this unused private "sayiTahminOyunu" method.(Ìîˆè8Ûú¤ÉÑ2
+V
+java:S1144"3Remove this unused private "kosulOrnekleri" method.(¨¬‚™üÿÿÿÿ8 –…ÉÑ2

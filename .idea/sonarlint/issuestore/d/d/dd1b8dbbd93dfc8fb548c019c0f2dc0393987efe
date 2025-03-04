@@ -1,0 +1,16 @@
+
+f	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş²µã
+k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÓúıÿÿÿÿ
+k	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¿İçÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğÇ³ÿÿÿÿÿ
+b
+java:S2095@"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñéşÿÿÿÿ
+g	java:S116"RRename this field "db_ismi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„—õë
+Q	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Ñğä¬
+Q	java:S125/"<This block of commented-out lines of code should be removed.(šöø÷
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(ôª×øÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'com.mysql.jdbc.Driver'.(Ô–ƒŸ
+L
+java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ
