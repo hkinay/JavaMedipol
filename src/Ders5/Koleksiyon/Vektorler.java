@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class Vektorler {
     public static void main(String[] args) {
-        Vector <String> isimler = new Vector<>();
+        Vector<String> isimler = new Vector<>();
         Vector<Integer> sayilar = new Vector<>();
 
         isimler.add("Kemal");

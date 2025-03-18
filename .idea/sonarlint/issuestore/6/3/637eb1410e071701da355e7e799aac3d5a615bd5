@@ -1,18 +1,0 @@
-
-^
-java:S1192"HDefine a constant instead of duplicating this literal "GÃ¶kmen" 3 times.(Øóçê
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›€ˆÐ
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(çÄ†±
-€
-java:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¥™Óµøÿÿÿÿ
-V
-java:S1854	";Remove this useless assignment to local variable "sayilar".(¥™Óµøÿÿÿÿ
-G
-java:S1481	",Remove this unused "sayilar" local variable.(¥™Óµøÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¾¨€™
-=
-java:S2201"(The return value of "size" must be used.(Ñ”ò
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¹¾€™ûÿÿÿÿ
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(ýÉÞ¬úÿÿÿÿ
-S	java:S1061"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ

@@ -4,6 +4,14 @@ import java.sql.*;
 
 public class Baglanti {
 
+
+    //ORM Göster
+    //hibernate , JPA
+    //Entity Framework
+
+
+
+
     private static final String URL = "jdbc:mysql://localhost:3306/newmedipol";
     private static final String USERNAME ="root";
     private static final String PASSWORD = "1234";

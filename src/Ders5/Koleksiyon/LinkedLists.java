@@ -31,11 +31,11 @@ public class LinkedLists {
         envanterlistesi.offer("Bayrak"); //Kuyruğun sonuna ekler
         envanterlistesi.offer("Etiket");
 
-        envanterlistesi.poll();
-        String ikincieleman = envanterlistesi.peek();
+        envanterlistesi.poll(); //listenin başındaki elemanı çıkarır
+        String ikincieleman = envanterlistesi.peek(); //listenin başındaki elemanı alır ama çıkarmaz
 
-envanterlistesi.peekFirst(); //kuyruğun başı
-envanterlistesi.peekLast(); // kuyruğun sonu
+        envanterlistesi.peekFirst(); //kuyruğun başı
+        envanterlistesi.peekLast(); // kuyruğun sonu
 
 
 

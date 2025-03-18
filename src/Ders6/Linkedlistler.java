@@ -8,7 +8,6 @@ public class Linkedlistler {
     public String ad;
     public String soyad;
     public double version;
-
     public int yil;
 
     public Linkedlistler(String ad, String soyad, double version, int yil) {
@@ -17,8 +16,6 @@ public class Linkedlistler {
         this.version = version;
         this.yil = yil;
     }
-
-
 
     public void denemeler(){
 

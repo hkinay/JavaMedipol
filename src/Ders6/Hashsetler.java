@@ -9,7 +9,7 @@ public class Hashsetler {
     public static void main(String[] args) {
 
         //   Hashsetornegi();
-        //  treeSetOrnegi();
+          treeSetOrnegi();
 
      //   LinkedHashSetOrnegi();
 
@@ -40,10 +40,6 @@ public class Hashsetler {
 
 
         System.out.println("Benzersiz Kelimeler " + benzersizKelimeler);
-
-
-
-
     }
 
     private static void treeSetOrnegi() {
@@ -156,9 +152,17 @@ public class Hashsetler {
         karisiksayilar.add(5);
         karisiksayilar.add(7);
         karisiksayilar.add(5);
+        karisiksayilar.add(7);
 
         HashSet<Integer> essizsayilar = new HashSet<>(karisiksayilar);
+     /*   for (int u:karisiksayilar) {
+            essizsayilar.add(u);
+
+        }*/
+
+
         List<Integer> sonuc = new ArrayList<>(essizsayilar);
+
 
         System.out.println("Eşsiz Sayılar" + essizsayilar);
 

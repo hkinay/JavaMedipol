@@ -23,13 +23,13 @@ public class Stacks {
         stk.pop(); //En üstteki elemanı çıkarır
         System.out.println(stk);
 
-        int konum = stk.search(12);
+        int konum = stk.search(12); //indexof gibi kullanımı var
         System.out.println(konum);
 
 
 
 
-                    //Ternary Operatörü
+                    //Ternary Operatörü if-else kullanımı gibi
         System.out.println(stacklar.empty() ? "Boş":"Dolu");
 
         String exp = "{[()]}";
