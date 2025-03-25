@@ -50,9 +50,14 @@ public class LambdaExp {
         sayilar.forEach((u) ->{
             System.out.println(u);
         });
+
+
+
         //Tek parametre ve tek ifade
         //Temel Lambda yazılımı
         //(parametre) -> {ifadeler}
+//LAMBDA GÖRÜNÜMÜ
+     //   (parametre) -> ifade veya {kod bloğu}
 
         Runnable basit = ()-> System.out.println("Merhaba Lambdaya Giriş");
 
@@ -71,10 +76,7 @@ public class LambdaExp {
         sayilar.forEach(method);
 
         //Birden fazla parametre
-
         BiFunction<Integer,Integer,Integer> topla = (a,b) -> a + b;
-
-
     Calculation cross = (int a,int b) -> a * b;
     System.out.println(cross.calculate(4,5));
 
@@ -142,19 +144,46 @@ obj.normalHesaplama();
         Predicate<Urun> fiyatkontrol = urun -> urun.getFiyat() > 50 ;
         Consumer<Urun> zamYap = urun -> urun.setFiyat(urun.getFiyat()*1.2);
 
-
-
         urunler.stream().filter(fiyatkontrol).forEach(System.out::println);
         urunler.stream().peek(zamYap).map(Urun::getAd).forEach(System.out::println);
 
 
 
+        //bir runnable Örneği
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Anonim iç sınıf ile çalışan Thread");
+            }
+        });
+        thread.start();
+
+        Thread thread1 = new Thread(()-> System.out.println("lambda ile çalışan thread"));
+        thread1.start();
 
 
+        // bir consumer örneği
 
+        List<String> kitaplar = Arrays.asList("Data","Bilişsel Psikoloji","Master Algoritma","Enstitü");
 
+        Consumer <String> yazdir1 = new Consumer<String>() {
 
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+            }
 
+            @Override
+            public Consumer<String> andThen(Consumer<? super String> after) {
+                return Consumer.super.andThen(after);
+            }
+        };
+        kitaplar.forEach(yazdir1);
+
+        //Lambda ifadeli consumer
+
+        Consumer<String> stringConsumer = (String s) -> System.out.println(s);
+        kitaplar.forEach(stringConsumer);
 
        }
 

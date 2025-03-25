@@ -1,8 +1,4 @@
 
-H
-src/Ders8/LambdaExp.java,c\c\ccd97987673913cd69ccfed2d30949e0bbc4e660
-E
-src/Ders8/FileIO.java,5\1\516d7af78fbf442acc155649b3cb9de165c4e31b
 Q
 !src/Ders9/IkiTipGenericClass.java,5\1\51fed3df78de517311a7e07b80359f28a3f093b2
 K
@@ -94,8 +90,6 @@ Q.idea/sonarlint/securityhotspotstore/9/a/9a15e8ff509d512fe63bf1290425140ebfdfbb
 Å
 Q.idea/sonarlint/securityhotspotstore/8/7/8779c4e75c8da8f0b1e7c6bf3a80643b2bcfd758,e\a\ea5f0947933d0a194e94527ddf355f340a687415
 Å
-Q.idea/sonarlint/securityhotspotstore/f/b/fbc01532381352c95cb709639f016eb216437358,4\3\43c8eec89579c9054bb413dd46ccb0b75c44dc26
-Å
 Q.idea/sonarlint/securityhotspotstore/f/b/fbc0d42da2a61b487f0ff956a4275a52080640a9,1\9\19d830b898ddc930c05a275b2fba7b1c0057ed61
 Å
 Q.idea/sonarlint/securityhotspotstore/e/3/e39f5c0b7568a00d09af555566b0af6d4c166418,e\1\e151fde6ea273da2b41cd0d314424d5458c833b2
@@ -109,8 +103,6 @@ Q.idea/sonarlint/securityhotspotstore/5/1/516d7af78fbf442acc155649b3cb9de165c4e3
 Q.idea/sonarlint/securityhotspotstore/5/1/51fed3df78de517311a7e07b80359f28a3f093b2,b\f\bfaacdc406c31e92a260b137ff9668fb3c1652f7
 Å
 Q.idea/sonarlint/securityhotspotstore/2/b/2ba0a330a28a17724ed769750065c8447d9dcb98,7\1\71ca24f8c6c2dae8cc594cfdce61f5f61534dd86
-Å
-Q.idea/sonarlint/securityhotspotstore/2/a/2a395d1dd543c4a03f911fb2ce87bfc2eb39983a,8\e\8e517c4b5376259ac9eab70037ef1913540f642d
 Å
 Q.idea/sonarlint/securityhotspotstore/4/3/43c8ab749b2a8012a68f0ea5603f21ddcf63e6b6,1\5\15f39615c3a9226437a3ee25ef12c554dac7d72f
 Å
@@ -138,16 +130,20 @@ Q.idea/sonarlint/securityhotspotstore/9/6/96f318f0e3047adc032e89e70c13f65f981c67
 Å
 Q.idea/sonarlint/securityhotspotstore/c/8/c8a061bd1b0581c7764a77f3d483b0c62940be6d,7\f\7f521babd55bc569b6d8a042d96e7b2b062aad4a
 Å
-Q.idea/sonarlint/securityhotspotstore/0/c/0c03920f8f5b065b2279f7271bc8ec1787e5358f,f\a\fa9f293ed104320858e1b3548420ac03b1c95796
-Å
 Q.idea/sonarlint/securityhotspotstore/d/d/dd1b8dbbd93dfc8fb548c019c0f2dc0393987efe,2\d\2d259339618eb20b11973ad0a8b8f3392194e61e
 T
 $src/Ders5/DI/BimcellSMSProvider.java,d\a\da927a043010a4b35408b2af02205ef496c3e121
 U
 %src/Ders5/DI/TurkcellSmsProvider.java,d\4\d4dd625d607d55e0219fe212a63a71a7ede18688
-L
-src/Ders5/DI/SmsService.java,e\a\ea588e52832c2cc97e69b713f8af60bdeb2efe7a
 N
 src/Ders5/DI/AsmsProvider.java,4\3\43cee8ca08681161c87c30581b59fcd38ef691bc
 T
 $src/Ders5/DI/PTTCellSMSProvider.java,a\a\aa669cf6f0f1645f4fed0f5b26e4a8659ac75e51
+F
+src/Ders2/Diziler.java,5\2\524531a62b154690b45108ab42c5993a6b8c6e46
+Z
+*src/Ders10/JavaDers10/SqlServerBaglan.java,6\3\6389167e91560939b3923e716535c2155b759434
+U
+%src/Ders5/Koleksiyon/LinkedLists.java,7\0\7005443aaf16e57a1ea8d6f1f322df956de46482
+H
+src/Ders10/Baglanti.java,b\b\bb298880d550d7d1d9da502a232d149f74950fe4

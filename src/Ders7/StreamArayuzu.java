@@ -164,6 +164,7 @@ public class StreamArayuzu {
         urunlerliste.add(new Urunler("Iphone airpods",5900,LocalDate.of(2029,12,30),100));
         urunlerliste.add(new Urunler("USB Çoklayıcı",259.9,LocalDate.of(2027,11,01),100));
 
+urunlerliste.add(new Urunler("Philips Kulaklık",1099.90,LocalDate.of(2028,3,25),100));
 
 
         double sonuc = urunlerliste.stream().filter(p->p.getSktTarih().isBefore(LocalDate.now())).map(p->p.getStoksayisi()*(p.getFiyat() - p.getStoksayisi())).reduce(0.0,(add,val)->add+val);
