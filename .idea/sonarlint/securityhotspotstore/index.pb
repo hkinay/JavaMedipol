@@ -1,22 +1,4 @@
 
-Q
-!src/Ders9/IkiTipGenericClass.java,5\1\51fed3df78de517311a7e07b80359f28a3f093b2
-K
-src/Ders9/OzelTipClass.java,7\1\712ab952d1fcb2e49e7e4a134c3c7341b60dd5f8
-T
-$src/Ders9/SiralamaAlgoritmalari.java,7\d\7df5750fdeafc7d2f9c7fe508ed0cca7bf348b16
-K
-src/Ders9/GenericClass.java,8\6\86d742aa5536a5ae0acd3cd2d41674bf8f79789e
-L
-src/Ders9/BoundGenerics.java,8\0\80f1cf27e46eaf6ef94565cca9800e14400c791f
-Y
-)src/Ders9/CokluTipParametreliSınıf.java,c\c\ccec11b124ad03f7b15e0b53e58e779baf055df1
-W
-'src/Ders9/GenericTipSınırlamalı.java,2\b\2ba0a330a28a17724ed769750065c8447d9dcb98
-B
-src/Ders9/Box.java,9\a\9a15e8ff509d512fe63bf1290425140ebfdfbbb4
-K
-src/Ders9/GenericsJava.java,a\8\a80121f8c30fa9e25708105ed7a555a031e0dedf
 M
 src/Ders10/JavaDers10/pom.xml,c\8\c8a061bd1b0581c7764a77f3d483b0c62940be6d
 L
@@ -147,3 +129,27 @@ U
 %src/Ders5/Koleksiyon/LinkedLists.java,7\0\7005443aaf16e57a1ea8d6f1f322df956de46482
 H
 src/Ders10/Baglanti.java,b\b\bb298880d550d7d1d9da502a232d149f74950fe4
+F
+src/Ders7/Urunler.java,c\9\c9376d70dc32e3b91bef07dd62b7cf91136fa284
+P
+ src/Ders5/Koleksiyon/Stacks.java,4\f\4f2efcd6fdc61f786cd536caf9d1badef4675d37
+I
+src/Ders6/Hashsetler.java,9\3\9311a652348b6ea5856bc0d89fd8a3b28e1a9ea1
+N
+src/Ders6/KoleksiyonOrnek.java,7\8\788a2e4f34c6f0e99f5283f73a1db73f6287671b
+L
+src/Ders6/Linkedlistler.java,2\a\2a395d1dd543c4a03f911fb2ce87bfc2eb39983a
+V
+&src/Ders5/Koleksiyon/ArrayListler.java,f\8\f8ccc8587ab1c8702dc67bbf5a5fe1a8c3dbb902
+S
+#src/Ders5/Koleksiyon/Vektorler.java,6\3\637eb1410e071701da355e7e799aac3d5a615bd5
+E
+src/Ders6/Mapler.java,0\c\0c03920f8f5b065b2279f7271bc8ec1787e5358f
+K
+src/Ders6/HashMapOrnek.java,f\b\fbc01532381352c95cb709639f016eb216437358
+M
+src/Ders5/DI/SmsProvider.java,b\1\b1d599db2e86899bd21e5d907f26a4da8b261295
+L
+src/Ders5/DI/SmsService.java,e\a\ea588e52832c2cc97e69b713f8af60bdeb2efe7a
+L
+src/Ders7/StreamArayuzu.java,9\4\9434a15b018f026e98337465c2954516b2d1e277

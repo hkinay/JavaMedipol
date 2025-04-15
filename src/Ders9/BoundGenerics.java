@@ -1,11 +1,19 @@
 package Ders9;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 //Üst sınıf belirlendi
 public class BoundGenerics <T extends Number>{
     private T number;
+
+
+    private List<T> listem = new ArrayList<>();
+    public void ekle (T eleman){
+        listem.add(eleman);
+    }
+
 
     private double getDoubleValue(){
         return number.doubleValue();
@@ -23,6 +31,8 @@ public class BoundGenerics <T extends Number>{
         list.add(3);
 
     }
+
+
 
 
 }

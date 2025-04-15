@@ -1,8 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¾‰¾øÿÿÿÿ
-l
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ò«
-h	java:S100
-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÎìÓüÿÿÿÿ
-C
-java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX

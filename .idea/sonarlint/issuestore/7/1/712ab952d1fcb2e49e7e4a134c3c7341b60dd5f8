@@ -1,9 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¾‰¾øÿÿÿÿ
-7
-java:S1170"!Make this final field static too.(øš»é
-@
-java:S1659	"%Declare "soyisim" on a separate line.(ýšå¤ýÿÿÿÿ
-n
-java:S1450"XRemove the "calisanid" field and declare it as a local variable in the relevant methods.(×ÞœÕ
-^	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(öÏÜ®

@@ -8,7 +8,7 @@ import java.util.List;
 public class GenericsJava {
     public static void main(String[] args) {
         //Generic Olmayan Tanımlama
-        List nonGenericList = new ArrayList();
+        List nonGenericList = new ArrayList(); //Tip belirtilmemiş Object kabul ediyor
         //Generic Tanımlama
         List<String> genericListe = new ArrayList<>();
 
@@ -19,7 +19,7 @@ public class GenericsJava {
 
 
         String k = (String) nonGenericList.get(0);  //cast gerekli
-
+        Integer kf = (Integer) nonGenericList.get(2);
 
         genericListe.add("Genericlerde string belirtildiği için sadece String atanabilir");
 
@@ -43,14 +43,18 @@ public class GenericsJava {
 
         }
 
-        System.out.println("---------- Generic Class Örneği ----------");
-        GenericClass<Integer> urunId = new GenericClass<>();
-        GenericClass<String> urunAd = new GenericClass<>();
 
+        // KENDİ GENERIC CLASS ÖRNEĞİ KUTU
         Box<Integer> boxid = new Box<>();
         boxid.set(100);
 
+        Box<String> boxsid = new Box<>();
+        boxsid.set("bu bir string kutunun ilk elemanı");
 
+
+        System.out.println("---------- Generic Class Örneği ----------");
+        GenericClass<Integer> urunId = new GenericClass<>();
+        GenericClass<String> urunAd = new GenericClass<>();
 
         urunId.addList(1001);
         urunId.addList(1002);
@@ -71,11 +75,7 @@ public class GenericsJava {
         //Çoklu Key Value Parametreli Generic Class Örneği
 
         CokluTipParametreliSınıf<String,Integer> cokluTipParametreliSınıf = new CokluTipParametreliSınıf<>("Yaş" , 39);
-
-
-
-
-
+        cokluTipParametreliSınıf.getKey();
 
         System.out.println("-------------OzelTip Class Örneği ---------");
 
@@ -101,9 +101,6 @@ public class GenericsJava {
         siniflistesi.AddDict("Hüseyin",25);
         siniflistesi.AddDict("Ayşe",36);
 
-
-
-
         sozlugum.AddDict("Elma","Apple");
         sozlugum.AddDict("Mukava","Nice");
         sozlugum.AddDict("Stark","Güçlü");
@@ -116,6 +113,10 @@ public class GenericsJava {
 
         System.out.println(siniflistesi.getDict("Hüseyin")); //25
 
+
+
+
+
     }
     public int genericMethod (int a){
         return a;
@@ -123,6 +124,21 @@ public class GenericsJava {
 
     public String genericStringMethod (String b){
         return b;
+    }
+
+
+    public static <T extends Comparable<T>> T eneleman(T [] dizi){
+        if(dizi == null || dizi.length==0){
+            return null;
+        }
+        T enBuyuk = dizi[0];
+
+        for(int i = 0; i<dizi.length;i++){
+            if(dizi[i].compareTo(enBuyuk)>0){
+                enBuyuk = dizi[i];
+            }
+        }
+        return enBuyuk;
     }
 
 

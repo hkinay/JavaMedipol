@@ -22,6 +22,7 @@ public class FileIO {
             System.out.println("Yazılabilir mi ? " + dosyam.canWrite());
             System.out.println("Okunabilir mi ? " + dosyam.canRead());
             System.out.println("Dosyanın Boyutu : " + dosyam.length());
+            //dosyam.delete()//Dosya silme işlemi
 
         }
         else{

@@ -1,38 +1,0 @@
-
-Q
-java:S3740"/Provide the parametrized type for this generic.(Ê¸óñşÿÿÿÿ8“¨ÃÓ½2
-Q
-java:S3740"/Provide the parametrized type for this generic.(Ê¸óñşÿÿÿÿ8“¨ÃÓ½2
-v
-java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸´Æı8”¨ÃÓ½2
-{
-java:S2293c"YReplace the type specification in this constructor call with the diamond operator ("<>").(³¸ÑÚüÿÿÿÿ8•¨ÃÓ½2
-m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñİ÷¶8•¨ÃÓ½2
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¾‰¾øÿÿÿÿ8—¨ÃÓ½2
-W
-java:S1854"5Remove this useless assignment to local variable "k".(ÒÑ˜ƒüÿÿÿÿ8Ï¨ÃÓ½2
-k
-java:S1854I"NRemove this useless assignment to local variable "cokluTipParametreliSÄ±nÄ±f".(ñİ÷¶8Ğ¨ÃÓ½2
-H
-java:S1481"&Remove this unused "k" local variable.(ÒÑ˜ƒüÿÿÿÿ8Ò¨ÃÓ½2
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ìã‰—ÿÿÿÿÿ8Ó¨ÃÓ½2
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(à—çşüÿÿÿÿ8Ó¨ÃÓ½2
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(õ¬‡Îøÿÿÿÿ8Ó¨ÃÓ½2
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(­š…’ıÿÿÿÿ8Ó¨ÃÓ½2
-U	java:S106""9Replace this use of System.out or System.err by a logger.(ØÓş‘8Ô¨ÃÓ½2
-T	java:S106'"9Replace this use of System.out or System.err by a logger.(ÈÌ„	8Ô¨ÃÓ½2
-Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ñÁ‘†ùÿÿÿÿ8Ô¨ÃÓ½2
-Z	java:S106."9Replace this use of System.out or System.err by a logger.(°±ú’şÿÿÿÿ8Ô¨ÃÓ½2
-U	java:S106C"9Replace this use of System.out or System.err by a logger.(ë¶Ã‘8×¨ÃÓ½2
-\
-java:S1481I"?Remove this unused "cokluTipParametreliSÄ±nÄ±f" local variable.(ñİ÷¶8×¨ÃÓ½2
-U	java:S106P"9Replace this use of System.out or System.err by a logger.(â¸¬Ë8×¨ÃÓ½2
-U	java:S106]"9Replace this use of System.out or System.err by a logger.(óÁº¡8Ø¨ÃÓ½2
-Z	java:S106^"9Replace this use of System.out or System.err by a logger.(õèóçøÿÿÿÿ8Ù¨ÃÓ½2
-Z	java:S106`"9Replace this use of System.out or System.err by a logger.(” ïòúÿÿÿÿ8Ù¨ÃÓ½2
-Z	java:S106p"9Replace this use of System.out or System.err by a logger.(îî‰ùÿÿÿÿ8Ú¨ÃÓ½2
-U	java:S106q"9Replace this use of System.out or System.err by a logger.(Úõùï8Û¨ÃÓ½2
-U	java:S106r"9Replace this use of System.out or System.err by a logger.(ÂË¼”8İ¨ÃÓ½2
-Z	java:S106u"9Replace this use of System.out or System.err by a logger.(Ñà™®ÿÿÿÿÿ8Ş¨ÃÓ½2
-Q
-java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8â÷ÃÓ½2
