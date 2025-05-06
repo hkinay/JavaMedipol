@@ -1,0 +1,73 @@
+
+Q
+java:S3740:"/Provide the parametrized type for this generic.(—„βθύÿÿÿÿ8ί«°λά2
+{
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(ςΨ·€ϊÿÿÿÿ8α«°λά2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ξΥβ8ζ«°λά2
+a
+java:S1854µ">Remove this useless assignment to local variable "enucuzUrun".(€μΌέύÿÿÿÿ8Δ¬°λά2
+Z
+java:S1854±"<Remove this useless assignment to local variable "enpahali".(“Θ8Ε¬°λά2
+]	java:S125"<This block of commented-out lines of code should be removed.(­΄Ζιύÿÿÿÿ8Θ¬°λά2
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(Ίπα΅ϋÿÿÿÿ8Ν¬°λά2
+t
+java:S6204:"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(—„βθύÿÿÿÿ8Ξ¬°λά2
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(΄‹Ήφώÿÿÿÿ8Π¬°λά2
+T	java:S106A"9Replace this use of System.out or System.err by a logger.(η½:8Ρ¬°λά2
+>
+java:S1116B"Remove this empty statement.(©κδϋÿÿÿÿ8Ò¬°λά2
+]
+java:S1612C"@Replace this lambda with method reference 'System.out::println'.(σΐΚ¦8Τ¬°λά2
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(σΐΚ¦8Φ¬°λά2
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(¬΅π8Χ¬°λά2
+]
+java:S1612M"@Replace this lambda with method reference 'System.out::println'.(Φ®ΉΥ8Ϋ¬°λά2
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(Φ®ΉΥ8Ϋ¬°λά2
+]
+java:S1612O"@Replace this lambda with method reference 'System.out::println'.(’ΒΥ8ή¬°λά2
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(’ΒΥ8ί¬°λά2
+b
+java:S1612Q"@Replace this lambda with method reference 'System.out::println'.(ƒ‰ήθόÿÿÿÿ8ΰ¬°λά2
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(ƒ‰ήθόÿÿÿÿ8α¬°λά2
+\
+java:S1612S"@Replace this lambda with method reference 'System.out::println'.(Ηχª~8β¬°λά2
+T	java:S106S"9Replace this use of System.out or System.err by a logger.(Ηχª~8δ¬°λά2
+]
+java:S1612U"@Replace this lambda with method reference 'System.out::println'.(¦«‹8ε¬°λά2
+U	java:S106U"9Replace this use of System.out or System.err by a logger.(¦«‹8ζ¬°λά2
+U	java:S106Z"9Replace this use of System.out or System.err by a logger.(²οέ¨8θ¬°λά2
+Z	java:S106\"9Replace this use of System.out or System.err by a logger.(Ϊµ®Σψÿÿÿÿ8ι¬°λά2
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(Σ±¦Ωϋÿÿÿÿ8λ¬°λά2
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(‚ƒνΓ8μ¬°λά2
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(αΈΘβψÿÿÿÿ8μ¬°λά2
+U	java:S106k"9Replace this use of System.out or System.err by a logger.(®’—8ν¬°λά2
+N
+java:S1602m",Remove useless curly braces around statement(¤ϊΣΔωÿÿÿÿ8ξ¬°λά2
+U	java:S106n"9Replace this use of System.out or System.err by a logger.(»ÿ‚Ò8ξ¬°λά2
+]	java:S125p"<This block of commented-out lines of code should be removed.(ω‡ΘΑϋÿÿÿÿ8ο¬°λά2
+Z	java:S106~"9Replace this use of System.out or System.err by a logger.(Γμωωÿÿÿÿ8π¬°λά2
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(ή½ζε8ρ¬°λά2
+U	java:S106„"9Replace this use of System.out or System.err by a logger.(ΩΊ‚8ρ¬°λά2
+U	java:S106‰"9Replace this use of System.out or System.err by a logger.(ίΊΑ8τ¬°λά2
+[	java:S106‹"9Replace this use of System.out or System.err by a logger.(“Εμ€ϊÿÿÿÿ8υ¬°λά2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ώΰR8ψ¬°λά2
+V	java:S106’"9Replace this use of System.out or System.err by a logger.(’σεΤ8ω¬°λά2
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(ξµ“8­°λά2
+K
+java:S1481±"-Remove this unused "enpahali" local variable.(“Θ8‚­°λά2
+R
+java:S1481µ"/Remove this unused "enucuzUrun" local variable.(€μΌέύÿÿÿÿ8„­°λά2
+V	java:S106Έ"9Replace this use of System.out or System.err by a logger.(ΗΦΟ§8†­°λά2
+[	java:S106Ύ"9Replace this use of System.out or System.err by a logger.(ε®άόÿÿÿÿ8­°λά2
+[	java:S106Δ"9Replace this use of System.out or System.err by a logger.(Δύ’σύÿÿÿÿ8­°λά2
+[	java:S106Ζ"9Replace this use of System.out or System.err by a logger.(·¥€ύώÿÿÿÿ8­°λά2
+[	java:S106Κ"9Replace this use of System.out or System.err by a logger.(Δύ’σύÿÿÿÿ8­°λά2
+[	java:S106Μ"9Replace this use of System.out or System.err by a logger.(·¥€ύώÿÿÿÿ8­°λά2
+[	java:S106Π"9Replace this use of System.out or System.err by a logger.(θ†Ώωÿÿÿÿ8‘­°λά2
+[	java:S106Ω"9Replace this use of System.out or System.err by a logger.(β€ό…όÿÿÿÿ8“­°λά2
+I
+java:S1128",Remove this unused import 'Ders8.LambdaExp'.(Θ½μ²8•­°λά2
+Q
+java:S1128"4Remove this unused import 'java.util.Arrays.setAll'.(…΅Σφ8•­°λά2
+V
+java:S1128"4Remove this unused import 'java.util.Arrays.stream'.(Β΄’¨ύÿÿÿÿ8•­°λά2

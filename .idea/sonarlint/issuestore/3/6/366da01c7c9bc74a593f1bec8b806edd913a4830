@@ -1,0 +1,13 @@
+
+r
+java:S1104"WMake isimsoyisim a static final constant or non-public and provide accessors if needed.(ó“ûÿÿÿÿ
+l
+java:S1104"QMake sttid a static final constant or non-public and provide accessors if needed.(Š‘·åùÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùçó
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆïË
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÎªÛéüÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ ’à
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ğšôî

@@ -1,9 +1,0 @@
-
-J
-java:S1604%"(Make this anonymous inner class a lambda(©Ğ´üÿÿÿÿ8ıÇ³Ä2
-D
-java:S1604-"(Make this anonymous inner class a lambda(¢Ç›H8şÇ³Ä2
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢Ÿ÷Óùÿÿÿÿ8‚Ç³Ä2
-]
-java:S2134"@Don't extend "Thread", since the "run" method is not overridden.(š”ß8«Ç³Ä2
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÏ°ıÿÿÿÿ8¼Ç³Ä2

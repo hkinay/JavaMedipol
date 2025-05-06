@@ -1,0 +1,19 @@
+
+o
+java:S1104"RMake acisim a static final constant or non-public and provide accessors if needed.(ûš8ÇÜí‰Ö2
+t
+java:S1104"RMake acstid a static final constant or non-public and provide accessors if needed.(¼¸Ùçÿÿÿÿÿ8ÇÜí‰Ö2
+u
+java:S1104"SMake acbolum a static final constant or non-public and provide accessors if needed.(†¯€şÿÿÿÿ8ÇÜí‰Ö2
+n
+java:S1104"QMake acgpa a static final constant or non-public and provide accessors if needed.(æ—ÁŸ8ÇÜí‰Ö2
+n
+java:S1104
+"QMake acyas a static final constant or non-public and provide accessors if needed.(òœÔò8ÇÜí‰Ö2
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùçó8ÉÜí‰Ö2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(›€¨¤8ÖÜí‰Ö2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“¾Òîÿÿÿÿÿ8ØÜí‰Ö2
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ÙÓ©âüÿÿÿÿ8ÛÜí‰Ö2
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(½Â¾ñüÿÿÿÿ8ùÇï‰Ö2
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¢˜‚ïıÿÿÿÿ8¤÷ï‰Ö2
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8­ò’ŠÖ2

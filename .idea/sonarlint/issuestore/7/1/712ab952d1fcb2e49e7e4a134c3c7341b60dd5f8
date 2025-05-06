@@ -1,0 +1,17 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¾‰¾øÿÿÿÿ8¼ Îã2
+>
+java:S1170	"!Make this final field static too.(øš»é8Ã Îã2
+G
+java:S1659"%Declare "soyisim" on a separate line.(ıšå¤ıÿÿÿÿ8Ã Îã2
+u
+java:S1450"XRemove the "calisanid" field and declare it as a local variable in the relevant methods.(×ŞœÕ8Ã Îã2
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(öÏÜ®8Å Îã2
+W
+java:S1854"5Remove this useless assignment to local variable "a".(…ØŞ¡ùÿÿÿÿ8Ù³£Îã2
+J
+java:S1172"(Remove this unused method parameter "k".(Æ¬©ùÿÿÿÿ8Ç Îã2
+H
+java:S1481"&Remove this unused "a" local variable.(…ØŞ¡ùÿÿÿÿ8Û³£Îã2
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8Û³£Îã2

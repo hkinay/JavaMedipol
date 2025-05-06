@@ -1,0 +1,14 @@
+
+m
+java:S1104"PMake isim a static final constant or non-public and provide accessors if needed.(Ñèç€8±öëÓ2
+p
+java:S1104"SMake soyisim a static final constant or non-public and provide accessors if needed.(ûƒùÖ8±öëÓ2
+r
+java:S1104"UMake departman a static final constant or non-public and provide accessors if needed.(ó÷†‚8±öëÓ2
+n
+java:S1104"QMake adres a static final constant or non-public and provide accessors if needed.(îæ´ê8±öëÓ2
+n
+java:S1104"RMake dtarih a static final constant or non-public and provide accessors if needed.(ÆúÊ?8±öëÓ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë‹şøÿÿÿÿ8²öëÓ2
+V
+java:S5993"9Change the visibility of this constructor to "protected".(¿Õ€Í8µöëÓ2

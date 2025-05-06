@@ -1,0 +1,50 @@
+
+L
+java:S3740="/Provide the parametrized type for this generic.(ğôŞ—8ŸÉÍÚ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Ø¢€8¢ÉÍÚ2
+‡
+java:S1149)"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Æ«¿úúÿÿÿÿ8ºÉÍÚ2
+m
+java:S1149="PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ğôŞ—8ºÉÍÚ2
+^
+java:S1854U"ARemove this useless assignment to local variable "indirimlihali".(×éªº8¼ÉÍÚ2
+V
+java:S1854T":Remove this useless assignment to local variable "pahali".(½ŸäF8¼ÉÍÚ2
+b
+java:S1854I"@Remove this useless assignment to local variable "karaktersayi".(¾ÒÜ¡úÿÿÿÿ8¼ÉÍÚ2
+d
+java:S18548"BRemove this useless assignment to local variable "gecenOgrsayisi".(š»…êùÿÿÿÿ8¼ÉÍÚ2
+^
+java:S18544"<Remove this useless assignment to local variable "ortalama".(Íˆß¤ÿÿÿÿÿ8¼ÉÍÚ2
+`
+java:S1854$">Remove this useless assignment to local variable "toplamcift".(Ûı£´ùÿÿÿÿ8¼ÉÍÚ2
+_
+java:S1854"BRemove this useless assignment to local variable "siralisehirler".(³’—¾8¼ÉÍÚ2
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(©Ë„œÿÿÿÿÿ8½ÉÍÚ2
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(³’—¾8ÀÉÍÚ2
+P
+java:S1481"3Remove this unused "siralisehirler" local variable.(³’—¾8ÀÉÍÚ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ş´Ó»ıÿÿÿÿ8ÁÉÍÚ2
+Q
+java:S1481$"/Remove this unused "toplamcift" local variable.(Ûı£´ùÿÿÿÿ8ÃÉÍÚ2
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(µÊ¬8ÃÉÍÚ2
+O
+java:S14814"-Remove this unused "ortalama" local variable.(Íˆß¤ÿÿÿÿÿ8ÅÉÍÚ2
+U
+java:S14818"3Remove this unused "gecenOgrsayisi" local variable.(š»…êùÿÿÿÿ8ÆÉÍÚ2
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Á™Ñ›üÿÿÿÿ8ÆÉÍÚ2
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(ÆŒî³úÿÿÿÿ8ÇÉÍÚ2
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(ü°‰ò8ÇÉÍÚ2
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(ÕÃä‹8ÇÉÍÚ2
+S
+java:S1481I"1Remove this unused "karaktersayi" local variable.(¾ÒÜ¡úÿÿÿÿ8ÇÉÍÚ2
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(óÓî¤8ÈÉÍÚ2
+G
+java:S1481T"+Remove this unused "pahali" local variable.(½ŸäF8ÉÉÍÚ2
+O
+java:S1481U"2Remove this unused "indirimlihali" local variable.(×éªº8ÊÉÍÚ2
+]	java:S125Y"<This block of commented-out lines of code should be removed.( –¦ïûÿÿÿÿ8ËÉÍÚ2
+Q
+java:S1128"4Remove this unused import 'Ders5.Koleksiyon.Stacks'.(‚ó½¡8ÌÉÍÚ2

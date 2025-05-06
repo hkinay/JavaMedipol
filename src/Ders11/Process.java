@@ -3,6 +3,7 @@ package Ders11;
 public class Process extends Thread{
     public static void main(String[] args) throws InterruptedException {
 
+
         Printer printer = new Printer('A',2);
         Number number = new Number(10,3);
         Printer printer1 = new Printer('B',3);
@@ -21,6 +22,7 @@ public class Process extends Thread{
 
 
 
+
         System.out.println("-----------------------------");
 
         int issayisi = 5;
@@ -30,6 +32,9 @@ public class Process extends Thread{
 
 
         }
+
+        ExtendEdilenSinif extendEdilenSinif1 = new ExtendEdilenSinif();
+        extendEdilenSinif1.start();
 
 
         WaitNotify wn = new WaitNotify();

@@ -1,0 +1,54 @@
+
+j
+java:S11921"HDefine a constant instead of duplicating this literal "aÄŸaÃ§2" 3 times.(ö¾¶‰şÿÿÿÿ8êßÕÊÚ2
+e
+java:S11922"HDefine a constant instead of duplicating this literal "aÄŸaÃ§3" 3 times.( Üš­8êßÕÊÚ2
+l	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø©C8ëßÕÊÚ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Ø¢€8ïßÕÊÚ2
+]	java:S125"<This block of commented-out lines of code should be removed.(‡â¸Ôÿÿÿÿÿ8»àÕÊÚ2
+]	java:S125"<This block of commented-out lines of code should be removed.(¬çäĞşÿÿÿÿ8»àÕÊÚ2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šïşÿÿÿÿ8»àÕÊÚ2
+U	java:S106"9Replace this use of System.out or System.err by a logger.( •Ü¯8ÂàÕÊÚ2
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(ãù›8ÅàÕÊÚ2
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.( õÅÑüÿÿÿÿ8ÊàÕÊÚ2
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(°—îÔ8ÌàÕÊÚ2
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(÷×ÿ›ÿÿÿÿÿ8ÌàÕÊÚ2
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(‘¬›‘şÿÿÿÿ8ÍàÕÊÚ2
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(£¤™„8ÏàÕÊÚ2
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(˜•¡Ù8ÒàÕÊÚ2
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(ÕÊ±Áıÿÿÿÿ8ÓàÕÊÚ2
+T	java:S106R"9Replace this use of System.out or System.err by a logger.(§ºÂD8ÔàÕÊÚ2
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(ö¢Íüÿÿÿÿ8ÕàÕÊÚ2
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(†ìÑÅıÿÿÿÿ8ÕàÕÊÚ2
+Z	java:S106Z"9Replace this use of System.out or System.err by a logger.(…‰˜ºúÿÿÿÿ8ÖàÕÊÚ2
+U	java:S106]"9Replace this use of System.out or System.err by a logger.(ğí¨è8×àÕÊÚ2
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(Õ­’…úÿÿÿÿ8ØàÕÊÚ2
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(†è¯ùúÿÿÿÿ8ÙàÕÊÚ2
+U	java:S106g"9Replace this use of System.out or System.err by a logger.(ˆ”ÓÄ8ÙàÕÊÚ2
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(’ş÷¦ıÿÿÿÿ8ÚàÕÊÚ2
+U	java:S106i"9Replace this use of System.out or System.err by a logger.(á‹¿Š8ÛàÕÊÚ2
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(¬·Ôàüÿÿÿÿ8ßàÕÊÚ2
+j	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‚™Ò8áàÕÊÚ2
+_
+java:S1854"<Remove this useless assignment to local variable "icerirMi".(õÕ¯÷ùÿÿÿÿ8âàÕÊÚ2
+W
+java:S1854¤"9Remove this useless assignment to local variable "sonuc".(ÓµÒÑ8âàÕÊÚ2
+U	java:S106}"9Replace this use of System.out or System.err by a logger.(ş›‹8åàÕÊÚ2
+P
+java:S1481"-Remove this unused "icerirMi" local variable.(õÕ¯÷ùÿÿÿÿ8çàÕÊÚ2
+F
+java:S2201‚"(The return value of "size" must be used.(ñË¬Ë8çàÕÊÚ2
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ÏÔ°¢8êàÕÊÚ2
+[	java:S106‘"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8ëàÕÊÚ2
+^	java:S125"<This block of commented-out lines of code should be removed.(È¢éşÿÿÿÿÿ8–˜×ÊÚ2
+H
+java:S1481¤"*Remove this unused "sonuc" local variable.(ÓµÒÑ8ïàÕÊÚ2
+[	java:S106§"9Replace this use of System.out or System.err by a logger.(Åòë§øÿÿÿÿ8ïàÕÊÚ2
+X
+java:S1128"6Remove this unused import 'java.sql.ClientInfoStatus'.(¥¥éÀüÿÿÿÿ8õàÕÊÚ2
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8õàÕÊÚ2
+Z
+java:S1144"8Remove this unused private "LinkedHashSetOrnegi" method.(šïşÿÿÿÿ8õàÕÊÚ2
+O
+java:S1144w"2Remove this unused private "Hashsetornegi" method.(Ø‚™Ò8õàÕÊÚ2

@@ -1,4 +1,6 @@
 import Ders1.Driver;
+import Ders12.Ogrenci;
+import Ders12.Urun;
 import Ders2.Diziler;
 import Ders3.*;
 import Ders5.DI.SmsProvider;
@@ -10,6 +12,8 @@ import Ders9.GenericClass;
 import Ders9.GenericsJava;
 import Ders9.SiralamaAlgoritmalari;
 
+import java.io.*;
+import java.sql.SQLOutput;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
@@ -18,11 +22,75 @@ import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, InvalidClassException {
+
+        System.out.println("-----------Serileştirme-------------");
+
+        Ogrenci ogrenci = new Ogrenci("Kemal",20,"Bilgisayar Programcılığı","132433");
+        Ogrenci ogrenci1 = new Ogrenci("test",24,"Lojistik","3231");
+
+        String dosAdi = "ogrenci.ser"; //.ser veya .dat uzantıları kullanılır
+        String transietAdi = "ogrenci1.ser";
+
+
+        //**Serileştirme (nesneyi dosyaya yazdırma)
+
+        try {
+            FileOutputStream fileOutputStream = new FileOutputStream(dosAdi);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+
+            ObjectOutputStream objectOutputStream1 = new ObjectOutputStream(new FileOutputStream(transietAdi));
+
+
+            objectOutputStream.writeObject(ogrenci);
+            objectOutputStream1.writeObject(ogrenci1);
+
+            System.out.println(ogrenci.getAd() + " adlı öğrenci serileştirildi ve " + dosAdi + " ile kaydedildi");
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        Ogrenci okunanOgrenci = null;
+
+        FileInputStream fileInputStream = new FileInputStream(dosAdi);
+        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+
+        okunanOgrenci = (Ogrenci) objectInputStream.readObject();
+        System.out.println(dosAdi + " dosyasından öğrenci bilgisi alındı");
+
+        if (okunanOgrenci != null){
+            System.out.println("Okunan öğrenci bilgileri : " + okunanOgrenci);
+            System.out.println("Orijinal nesne ile aynı mı ? " + (ogrenci == okunanOgrenci));
+            System.out.println("Okunan öğrenci adı " + okunanOgrenci.getAd());
+
+
+        }
+
+
+        System.out.println("---------Serileştirme Bitti---------");
+
+        System.out.println("---------Externalizable ---------");
+
+        Urun urun = new Urun("ABC124",500,"Logitech Mouse","Sessiz çalışan mavi");
+        String dosyaAdi = "urun.ext";
+
+        System.out.println("Original Ürün " + urun);
+
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(dosyaAdi));
+        oos.writeObject(urun);
+
+        Urun okunanUrun = null;
+
+        ObjectInputStream oos1 = new ObjectInputStream(new FileInputStream(dosyaAdi));
+        okunanUrun= (Urun) oos1.readObject();
 
 
 
 
+        System.out.println("--------- Externalizable Bitti---------");
 
         Driver.carpimTablosu();
         PriorityQueue<Integer> pq = new PriorityQueue<>();

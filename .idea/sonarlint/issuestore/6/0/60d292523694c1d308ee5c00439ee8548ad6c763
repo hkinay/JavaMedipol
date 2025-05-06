@@ -1,0 +1,14 @@
+
+v
+java:S1104"TMake sozlesme a static final constant or non-public and provide accessors if needed.(ù„ø£şÿÿÿÿ8¥´úŠÖ2
+s
+java:S1104 "QMake kidem a static final constant or non-public and provide accessors if needed.(™ö¤úÿÿÿÿ8¥´úŠÖ2
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùçó8¦´úŠÖ2
+[
+java:S5993""9Change the visibility of this constructor to "protected".(Ú€ü›ıÿÿÿÿ8»´úŠÖ2
+]	java:S125"<This block of commented-out lines of code should be removed.(ó“ûÿÿÿÿ8¿ÕúŠÖ2
+o	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÉ÷ûÿÿÿÿ8Ç´úŠÖ2
+I
+java:S1125M"'Remove the unnecessary boolean literal.(º”÷÷şÿÿÿÿ8È´úŠÖ2
+o	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ª¾Ëúÿÿÿÿ8Ë´úŠÖ2
+U	java:S106]"9Replace this use of System.out or System.err by a logger.(³ÏØ›8Ì´úŠÖ2

@@ -1,0 +1,106 @@
+
+v
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ä“º©8ûË¥íÜ2
+r	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€´ºúÿÿÿÿ8ıË¥íÜ2
+E
+java:S1604™"(Make this anonymous inner class a lambda(ô§ê8ıË¥íÜ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÛÌÖ8€Ì¥íÜ2
+o	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¦”¢ıÿÿÿÿ8Ì¥íÜ2
+T	java:S106%"9Replace this use of System.out or System.err by a logger.(Ç“ô88ŸÌ¥íÜ2
+`
+java:S1854‡"BRemove this useless assignment to local variable "uzunlugunaGore".(­™šË8¡Ì¥íÜ2
+]
+java:S1854ƒ":Remove this useless assignment to local variable "toplam".(Ş¸Œãûÿÿÿÿ8¡Ì¥íÜ2
+^
+java:S1854";Remove this useless assignment to local variable "numbers".(ÿĞ¾ùıÿÿÿÿ8¡Ì¥íÜ2
+[
+java:S1854}">Remove this useless assignment to local variable "uzunluklar".(¡Í…Ö8¡Ì¥íÜ2
+[
+java:S1854p">Remove this useless assignment to local variable "randomSayi".(ª¸Íç8¡Ì¥íÜ2
+\
+java:S1854o":Remove this useless assignment to local variable "yazdir".(‘ÿÇùÿÿÿÿ8¡Ì¥íÜ2
+Y
+java:S1854m"<Remove this useless assignment to local variable "ciftSayi".(ñ€ÓŞ8¡Ì¥íÜ2
+V
+java:S1854O"9Remove this useless assignment to local variable "topla".(ŠÎÖ“8¡Ì¥íÜ2
+V
+java:S1854F"9Remove this useless assignment to local variable "ornek".(üı¯€8¡Ì¥íÜ2
+V
+java:S1854>"9Remove this useless assignment to local variable "basit".(ğ’è´8¡Ì¥íÜ2
+Q
+java:S16112"/Remove the parentheses around the "u" parameter(ÊãÏøøÿÿÿÿ8£Ì¥íÜ2
+N
+java:S16022",Remove useless curly braces around statement(ÊãÏøøÿÿÿÿ8£Ì¥íÜ2
+b
+java:S16122"@Replace this lambda with method reference 'System.out::println'.(ÊãÏøøÿÿÿÿ8£Ì¥íÜ2
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(Âæ“ú8¤Ì¥íÜ2
+]	java:S125:"<This block of commented-out lines of code should be removed.(»…ı›úÿÿÿÿ8¤Ì¥íÜ2
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ğ’è´8¤Ì¥íÜ2
+G
+java:S1481>"*Remove this unused "basit" local variable.(ğ’è´8¤Ì¥íÜ2
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(…§Å£üÿÿÿÿ8¥Ì¥íÜ2
+L
+java:S1611F"/Remove the parentheses around the "a" parameter(üı¯€8¥Ì¥íÜ2
+]
+java:S1612F"@Replace this lambda with method reference 'System.out::println'.(üı¯€8¥Ì¥íÜ2
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(üı¯€8¥Ì¥íÜ2
+G
+java:S1481F"*Remove this unused "ornek" local variable.(üı¯€8¥Ì¥íÜ2
+Q
+java:S1611H"/Remove the parentheses around the "n" parameter(×ÿ¹Ûúÿÿÿÿ8¦Ì¥íÜ2
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(†™ñ‹8¦Ì¥íÜ2
+z
+java:S4276O"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(ŠÎÖ“8¦Ì¥íÜ2
+G
+java:S1481O"*Remove this unused "topla" local variable.(ŠÎÖ“8§Ì¥íÜ2
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(€Ãì™8¨Ì¥íÜ2
+Q
+java:S1611S"/Remove the parentheses around the "s" parameter(€´ºúÿÿÿÿ8©Ì¥íÜ2
+L
+java:S1611T"/Remove the parentheses around the "s" parameter(Â·’ä8©Ì¥íÜ2
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ó¶Øïøÿÿÿÿ8ªÌ¥íÜ2
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(şğğ²8«Ì¥íÜ2
+X	java:S125_"<This block of commented-out lines of code should be removed.(§“ô 8«Ì¥íÜ2
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(Ê›±‚ıÿÿÿÿ8«Ì¥íÜ2
+X	java:S125d"<This block of commented-out lines of code should be removed.(·Â®8«Ì¥íÜ2
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(½èÉ¹8¬Ì¥íÜ2
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ÏË©øÿÿÿÿ8¬Ì¥íÜ2
+o
+java:S4276m"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ñ€ÓŞ8¬Ì¥íÜ2
+J
+java:S1481m"-Remove this unused "ciftSayi" local variable.(ñ€ÓŞ8¬Ì¥íÜ2
+X	java:S125n"<This block of commented-out lines of code should be removed.(ÒùÂ¶8­Ì¥íÜ2
+b
+java:S1612o"@Replace this lambda with method reference 'System.out::println'.(‘ÿÇùÿÿÿÿ8­Ì¥íÜ2
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(‘ÿÇùÿÿÿÿ8­Ì¥íÜ2
+M
+java:S1481o"+Remove this unused "yazdir" local variable.(‘ÿÇùÿÿÿÿ8­Ì¥íÜ2
+q
+java:S4276p"TRefactor this code to use the more specialised Functional Interface 'DoubleSupplier'(ª¸Íç8­Ì¥íÜ2
+V
+java:S1612p"9Replace this lambda with method reference 'Math::random'.(ª¸Íç8­Ì¥íÜ2
+L
+java:S1481p"/Remove this unused "randomSayi" local variable.(ª¸Íç8®Ì¥íÜ2
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(…¸äüÿÿÿÿ8°Ì¥íÜ2
+U	java:S106z"9Replace this use of System.out or System.err by a logger.(àš¸8±Ì¥íÜ2
+o
+java:S6204}"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¡Í…Ö8±Ì¥íÜ2
+L
+java:S1481}"/Remove this unused "uzunluklar" local variable.(¡Í…Ö8²Ì¥íÜ2
+O
+java:S1481",Remove this unused "numbers" local variable.(ÿĞ¾ùıÿÿÿÿ8²Ì¥íÜ2
+N
+java:S1481ƒ"+Remove this unused "toplam" local variable.(Ş¸Œãûÿÿÿÿ8³Ì¥íÜ2
+Q
+java:S1481‡"3Remove this unused "uzunlugunaGore" local variable.(­™šË8³Ì¥íÜ2
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(íäº¶üÿÿÿÿ8´Ì¥íÜ2
+?
+java:S3864”"!Remove this use of "Stream.peek".(¬€±8µÌ¥íÜ2
+V	java:S106”"9Replace this use of System.out or System.err by a logger.(¬€±8µÌ¥íÜ2
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(­àÌ·ûÿÿÿÿ8·Ì¥íÜ2
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(Ôö›­üÿÿÿÿ8¸Ì¥íÜ2
+[	java:S106­"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ºÌ¥íÜ2
+^
+java:S1612¹"@Replace this lambda with method reference 'System.out::println'.(‚Ø§€8¼Ì¥íÜ2
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(‚Ø§€8¼Ì¥íÜ2
+[	java:S106À"9Replace this use of System.out or System.err by a logger.(ŒºÇ¨øÿÿÿÿ8½Ì¥íÜ2

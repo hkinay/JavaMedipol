@@ -1,0 +1,15 @@
+
+f
+java:S1104"PMake isim a static final constant or non-public and provide accessors if needed.(Ñèç€
+k
+java:S1104"PMake stid a static final constant or non-public and provide accessors if needed.(¸ûµéüÿÿÿÿ
+l
+java:S1104"QMake bolum a static final constant or non-public and provide accessors if needed.(¸¬óüüÿÿÿÿ
+e
+java:S1104"OMake gpa a static final constant or non-public and provide accessors if needed.(ƒÚÙñ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùçó
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ ’à
+N	java:S106"9Replace this use of System.out or System.err by a logger.(®ç¨
+S	java:S106"9Replace this use of System.out or System.err by a logger.(şÊœøÿÿÿÿ
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(­‡Îÿÿÿÿÿ8‹»Ş‰Ö2

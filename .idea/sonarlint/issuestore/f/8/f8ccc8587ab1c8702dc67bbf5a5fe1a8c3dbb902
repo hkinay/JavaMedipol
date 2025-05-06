@@ -1,0 +1,27 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(–­§¤8ƒ½ÒªØ2
+i
+java:S1192>"GDefine a constant instead of duplicating this literal "Toyota" 4 times.(¯¸½êûÿÿÿÿ8ö´ŞªØ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›€ˆĞ8‡½ÒªØ2
+_
+java:S1854"BRemove this useless assignment to local variable "yeniStringDizi".(Æ¼ÔÙ8½ÒªØ2
+V
+java:S18547"9Remove this useless assignment to local variable "bosmu".(•ã­Ì8½ÒªØ2
+V
+java:S18546"9Remove this useless assignment to local variable "varMi".(¯Éì¹8½ÒªØ2
+P
+java:S1481"3Remove this unused "yeniStringDizi" local variable.(Æ¼ÔÙ8¤½ÒªØ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ïê¹öùÿÿÿÿ8¨½ÒªØ2
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(§Œ–·şÿÿÿÿ8ª½ÒªØ2
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(çğœ§ùÿÿÿÿ8«½ÒªØ2
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(Ïê¹öùÿÿÿÿ8­½ÒªØ2
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ê‡ĞÉûÿÿÿÿ8¯½ÒªØ2
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8µŠÓªØ2
+G
+java:S14816"*Remove this unused "varMi" local variable.(¯Éì¹8¶½ÒªØ2
+G
+java:S14817"*Remove this unused "bosmu" local variable.(•ã­Ì8¸½ÒªØ2
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(Öóş8¯µŞªØ2
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(˜´Ä¹8¡¢äªØ2
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(ÃÆõı8¢¢äªØ2

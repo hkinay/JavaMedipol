@@ -1,0 +1,27 @@
+
+J
+java:S3740C"/Provide the parametrized type for this generic.(Ì§ ¾úÿÿÿÿ
+J
+java:S3740J"/Provide the parametrized type for this generic.(¡²‚ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›€ˆĞ
+e
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(À„÷`
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(µêñƒúÿÿÿÿ
+k
+java:S1149+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ
+k
+java:S1149C"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ì§ ¾úÿÿÿÿ
+k
+java:S1149J"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¡²‚ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«§ù
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•šò
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤§«âøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ªûò
+M	java:S106"9Replace this use of System.out or System.err by a logger.(µ–°E
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Í’™»
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Ò´¯‚úÿÿÿÿ
+h
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÒıÚã
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ğ˜Ëï
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(åÿÙ—ÿÿÿÿÿ

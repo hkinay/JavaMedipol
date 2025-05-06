@@ -1,0 +1,40 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âý¢8ˆÄ¡ËÑ2
+X	java:S125"<This block of commented-out lines of code should be removed.(—œòæ8æÄ¡ËÑ2
+X	java:S125"<This block of commented-out lines of code should be removed.(ƒ©ßÃ8æÄ¡ËÑ2
+]
+java:S18540";Remove this useless assignment to local variable "enkucuk".(ý×ˆ®ûÿÿÿÿ8çÄ¡ËÑ2
+L
+java:S1197"*Move the array designators [] to the type.(”š¢Íûÿÿÿÿ8èÄ¡ËÑ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚…Ú¥üÿÿÿÿ8éÄ¡ËÑ2
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(¥èÅ¡8ëÄ¡ËÑ2
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Ãìùžùÿÿÿÿ8ëÄ¡ËÑ2
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ñï†Ä8ìÄ¡ËÑ2
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ìÄ¡ËÑ2
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(­à«·8ìÄ¡ËÑ2
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(½”Öüüÿÿÿÿ8íÄ¡ËÑ2
+N
+java:S14810",Remove this unused "enkucuk" local variable.(ý×ˆ®ûÿÿÿÿ8öÄ¡ËÑ2
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(úòÕ‘8øÄ¡ËÑ2
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(Ë½÷¿þÿÿÿÿ8øÄ¡ËÑ2
+B
+java:S2129E" Remove this "String" constructor(éïÞ¸üÿÿÿÿ8…Å¡ËÑ2
+L
+java:S1197H"*Move the array designators [] to the type.(°’ÏÕÿÿÿÿÿ8†Å¡ËÑ2
+W	java:S125K"<This block of commented-out lines of code should be removed.(†¾ßQ8†Å¡ËÑ2
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(¡›8‡Å¡ËÑ2
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8‡Å¡ËÑ2
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(³®¦âþÿÿÿÿ8‡Å¡ËÑ2
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(½Æ«öøÿÿÿÿ8‡Å¡ËÑ2
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(·ùßóýÿÿÿÿ8ˆÅ¡ËÑ2
+U	java:S106l"9Replace this use of System.out or System.err by a logger.(à¾‚Š8ˆÅ¡ËÑ2
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(¤¸¤ûÿÿÿÿ8ˆÅ¡ËÑ2
+Y	java:S125€"<This block of commented-out lines of code should be removed.(Ú™¥Ú8ÜØ®ËÑ2
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(—ÔÌÑÿÿÿÿÿ8•Å¡ËÑ2
+^	java:S125"<This block of commented-out lines of code should be removed.(¢‘þºúÿÿÿÿ8•Å¡ËÑ2
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8Äç¯ËÑ2
+N
+java:S1144"1Remove this unused private "sayiSiralama" method.( ê®³8—Å¡ËÑ2
+X
+java:S11448"6Remove this unused private "cokBoyutluDiziler" method.(á‰ƒøÿÿÿÿ8—Å¡ËÑ2

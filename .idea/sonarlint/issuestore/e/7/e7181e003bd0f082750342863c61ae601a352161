@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÛÌÖ8ĞãíÜ2
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(›–¼å8šĞãíÜ2
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(®¤ßñúÿÿÿÿ8šĞãíÜ2
+H
+java:S1128"+Remove this unused import 'Ders11.Printer'.(û¬«ı8–øêíÜ2

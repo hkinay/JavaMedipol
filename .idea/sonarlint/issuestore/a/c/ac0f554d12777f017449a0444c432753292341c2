@@ -1,0 +1,26 @@
+
+z
+java:S1488E"^Immediately return this expression instead of assigning it to the temporary variable "toplam".(ÓÃ®z8ÚºêÓ2
+v
+java:S1488U"YImmediately return this expression instead of assigning it to the temporary variable "i".(Ûô²®8ÚºêÓ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë‹şøÿÿÿÿ8ÜºêÓ2
+W
+java:S1854":Remove this useless assignment to local variable "yenius".(•˜¥8ÁŞ”êÓ2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Æ½ÎÄÿÿÿÿÿ8êºêÓ2
+H
+java:S1481"+Remove this unused "yenius" local variable.(•˜¥8ÃŞ”êÓ2
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ãô°Óøÿÿÿÿ8íºêÓ2
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(Ááç÷øÿÿÿÿ8íºêÓ2
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(â§µ8îºêÓ2
+Z
+java:S1854a"8Remove this useless assignment to local variable "sayi".(¿°öàıÿÿÿÿ8ïºêÓ2
+e
+java:S1854{"CRemove this useless assignment to local variable "matematiksayisi".(¡×˜Çıÿÿÿÿ8ğºêÓ2
+M
+java:S1172v"+Remove this unused method parameter "sayi".(Ê¥ë»ÿÿÿÿÿ8ñºêÓ2
+@
+java:S2119w"Save and re-use this "Random".(Ûƒşúÿÿÿÿ8óºêÓ2
+V
+java:S1481{"4Remove this unused "matematiksayisi" local variable.(¡×˜Çıÿÿÿÿ8ôºêÓ2
+Q
+java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8Î€“êÓ2

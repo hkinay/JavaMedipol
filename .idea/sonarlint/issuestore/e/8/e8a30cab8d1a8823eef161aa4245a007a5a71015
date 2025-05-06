@@ -1,0 +1,7 @@
+
+s
+java:S1104"VMake Unidiploma a static final constant or non-public and provide accessors if needed.(ùšæÍ8€£…ìÓ2
+x
+java:S1104"VMake girisTarih a static final constant or non-public and provide accessors if needed.(ëåÉªıÿÿÿÿ8€£…ìÓ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë‹şøÿÿÿÿ8£…ìÓ2
+q	java:S116"URename this field "Unidiploma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùšæÍ8†£…ìÓ2

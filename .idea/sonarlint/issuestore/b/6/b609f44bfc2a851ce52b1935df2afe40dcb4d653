@@ -1,0 +1,6 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùçó8ç×È‹Ö2
+]	java:S125"<This block of commented-out lines of code should be removed.(–êî“úÿÿÿÿ8ð×È‹Ö2
+X	java:S125"<This block of commented-out lines of code should be removed.(ÒìëÆ8ð×È‹Ö2
+`
+java:S1128">Remove this unused import 'javax.swing.text.rtf.RTFEditorKit'.(à‰ïêýÿÿÿÿ8³ŠÍ‹Ö2
